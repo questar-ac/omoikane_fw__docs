@@ -226,7 +226,7 @@ aws/questar/soshinki/noise/data_chunk
         L50 noise value within the minimum measurement unit time
     * - L90
       - number
-      - 最小計測単位時間内での騒音L95値
+      - 最小計測単位時間内での騒音L90値
         
         L90 noise value within the minimum measurement unit time
     * - L95
@@ -454,7 +454,7 @@ aws/questar/soshinki/noise/data_chunk
         L50 noise value within the minimum measurement unit time
     * - L90
       - number
-      - 最小計測単位時間内での騒音L95値
+      - 最小計測単位時間内での騒音L90値
         
         L90 noise value within the minimum measurement unit time
     * - L95
@@ -814,7 +814,7 @@ aws/questar/soshinki/vibration/data_chunk
         L50 vibration value within the minimum measurement unit time
     * - L90
       - number
-      - 最小計測単位時間内での振動L95値
+      - 最小計測単位時間内での振動L90値
         
         L90 vibration value within the minimum measurement unit time
     * - L95
@@ -1235,7 +1235,7 @@ aws/questar/soshinki/noise/data_sum
         L50 noise value within the minimum aggregation unit time
     * - noise_l90
       - number
-      - 最小集計単位時間内での騒音L95値
+      - 最小集計単位時間内での騒音L90値
         
         L90 noise value within the minimum aggregation unit time
     * - noise_l95
@@ -1380,7 +1380,7 @@ aws/questar/soshinki/noise/data_sum
         L50 noise value within the minimum aggregation unit time
     * - noise_l90
       - number
-      - 最小集計単位時間内での騒音L95値
+      - 最小集計単位時間内での騒音L90値
         
         L90 noise value within the minimum aggregation unit time
     * - noise_l95
@@ -1531,7 +1531,7 @@ aws/questar/soshinki/noise/data_sum
         L50 noise value within the minimum aggregation unit time
     * - noise_l90
       - number
-      - 最小集計単位時間内での騒音L95値
+      - 最小集計単位時間内での騒音L90値
         
         L90 noise value within the minimum aggregation unit time
     * - noise_l95
@@ -1681,7 +1681,7 @@ aws/questar/soshinki/vibration/data_sum
         L50 vibration value within the minimum aggregation unit time
     * - vibration_l90
       - number
-      - 最小集計単位時間内での振動L95値
+      - 最小集計単位時間内での振動L90値
         
         L90 vibration value within the minimum aggregation unit time
     * - vibration_l95
@@ -1827,7 +1827,7 @@ aws/questar/soshinki/vibration/data_sum
         L50 vibration value within the minimum aggregation unit time
     * - vibration_l90
       - number
-      - 最小集計単位時間内での振動L95値
+      - 最小集計単位時間内での振動L90値
         
         L90 vibration value within the minimum aggregation unit time
     * - vibration_l95
