@@ -1202,7 +1202,7 @@ aws/questar/soshinki/noise/data_sum
       - json-object
       - :ref:`最小集計単位 <section-measures-noise>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregation unit <section-measures-noise>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1217,37 +1217,37 @@ aws/questar/soshinki/noise/data_sum
       - number
       - 最小集計単位時間内での騒音平均値
         
-        Average noise value within the minimum aggregation unit time
+        Average noise value within the minimum aggregate unit time
     * - noise_l5
       - number
       - 最小集計単位時間内での騒音L5値
         
-        L5 noise value within the minimum aggregation unit time
+        L5 noise value within the minimum aggregate unit time
     * - noise_l10
       - number
       - 最小集計単位時間内での騒音L10値
         
-        L10 noise value within the minimum aggregation unit time
+        L10 noise value within the minimum aggregate unit time
     * - noise_l50
       - number
       - 最小集計単位時間内での騒音L50値
         
-        L50 noise value within the minimum aggregation unit time
+        L50 noise value within the minimum aggregate unit time
     * - noise_l90
       - number
       - 最小集計単位時間内での騒音L90値
         
-        L90 noise value within the minimum aggregation unit time
+        L90 noise value within the minimum aggregate unit time
     * - noise_l95
       - number
       - 最小集計単位時間内での騒音L95値
         
-        L95 noise value within the minimum aggregation unit time
+        L95 noise value within the minimum aggregate unit time
     * - noise_max
       - number
       - 最小集計単位内での騒音最大値
         
-        Maximum noise value within the minimum aggregation unit time
+        Maximum noise value within the minimum aggregate unit time
     * - noise_max_time
       - number
       - noise_max 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1257,7 +1257,7 @@ aws/questar/soshinki/noise/data_sum
       - number
       - 最小集計単位時間内での騒音最小値
         
-        Minimum noise value within the minimum aggregation unit time
+        Minimum noise value within the minimum aggregate unit time
     * - noise_max_time
       - number
       - noise_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1347,7 +1347,7 @@ aws/questar/soshinki/noise/data_sum
       - json-object
       - :ref:`最小集計単位 <section-measures-noise>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregation unit <section-measures-noise>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1362,37 +1362,37 @@ aws/questar/soshinki/noise/data_sum
       - number
       - 最小集計単位時間内での騒音平均値
         
-        Average noise value within the minimum aggregation unit time
+        Average noise value within the minimum aggregate unit time
     * - noise_l5
       - number
       - 最小集計単位時間内での騒音L5値
         
-        L5 noise value within the minimum aggregation unit time
+        L5 noise value within the minimum aggregate unit time
     * - noise_l10
       - number
       - 最小集計単位時間内での騒音L10値
         
-        L10 noise value within the minimum aggregation unit time
+        L10 noise value within the minimum aggregate unit time
     * - noise_l50
       - number
       - 最小集計単位時間内での騒音L50値
         
-        L50 noise value within the minimum aggregation unit time
+        L50 noise value within the minimum aggregate unit time
     * - noise_l90
       - number
       - 最小集計単位時間内での騒音L90値
         
-        L90 noise value within the minimum aggregation unit time
+        L90 noise value within the minimum aggregate unit time
     * - noise_l95
       - number
       - 最小集計単位時間内での騒音L95値
         
-        L95 noise value within the minimum aggregation unit time
+        L95 noise value within the minimum aggregate unit time
     * - noise_max
       - number
       - 最小集計単位内での騒音最大値
         
-        Maximum noise value within the minimum aggregation unit time
+        Maximum noise value within the minimum aggregate unit time
     * - noise_max_time
       - number
       - noise_max 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1402,7 +1402,7 @@ aws/questar/soshinki/noise/data_sum
       - number
       - 最小集計単位時間内での騒音最小値
         
-        Minimum noise value within the minimum aggregation unit time
+        Minimum noise value within the minimum aggregate unit time
     * - noise_max_time
       - number
       - noise_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1498,7 +1498,7 @@ aws/questar/soshinki/noise/data_sum
       - json-object
       - :ref:`最小集計単位 <section-measures-noise>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregation unit <section-measures-noise>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1518,32 +1518,32 @@ aws/questar/soshinki/noise/data_sum
       - number
       - 最小集計単位時間内での騒音L5値
         
-        L5 noise value within the minimum aggregation unit time
+        L5 noise value within the minimum aggregate unit time
     * - noise_l10
       - number
       - 最小集計単位時間内での騒音L10値
         
-        L10 noise value within the minimum aggregation unit time
+        L10 noise value within the minimum aggregate unit time
     * - noise_l50
       - number
       - 最小集計単位内での騒音L50値
         
-        L50 noise value within the minimum aggregation unit time
+        L50 noise value within the minimum aggregate unit time
     * - noise_l90
       - number
       - 最小集計単位時間内での騒音L90値
         
-        L90 noise value within the minimum aggregation unit time
+        L90 noise value within the minimum aggregate unit time
     * - noise_l95
       - number
       - 最小集計単位内での騒音L95値
         
-        L95 noise value within the minimum aggregation unit time
+        L95 noise value within the minimum aggregate unit time
     * - noise_max
       - number
       - 最小集計単位時間内での騒音最大値
         
-        Maximum noise value within the minimum aggregation unit time
+        Maximum noise value within the minimum aggregate unit time
     * - noise_max_time
       - number
       - noise_max 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1553,7 +1553,7 @@ aws/questar/soshinki/noise/data_sum
       - number
       - 最小集計単位時間内での騒音最小値
         
-        Minimum noise value within the minimum aggregation unit time
+        Minimum noise value within the minimum aggregate unit time
     * - noise_max_time
       - number
       - noise_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1648,7 +1648,7 @@ aws/questar/soshinki/vibration/data_sum
       - json-object
       - :ref:`最小集計単位 <section-measures-vibration>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregation unit <section-measures-vibration>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-vibration>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1663,37 +1663,37 @@ aws/questar/soshinki/vibration/data_sum
       - number
       - 最小集計単位時間内での振動平均値
         
-        Average vibration value within the minimum aggregation unit time
+        Average vibration value within the minimum aggregate unit time
     * - vibration_l5
       - number
       - 最小集計単位時間内での振動L5値
         
-        L5 vibration value within the minimum aggregation unit time
+        L5 vibration value within the minimum aggregate unit time
     * - vibration_l10
       - number
       - 最小集計単位時間内での振動L10値
         
-        L10 vibration value within the minimum aggregation unit time
+        L10 vibration value within the minimum aggregate unit time
     * - vibration_l50
       - number
       - 最小集計単位時間内での振動L50値
         
-        L50 vibration value within the minimum aggregation unit time
+        L50 vibration value within the minimum aggregate unit time
     * - vibration_l90
       - number
       - 最小集計単位時間内での振動L90値
         
-        L90 vibration value within the minimum aggregation unit time
+        L90 vibration value within the minimum aggregate unit time
     * - vibration_l95
       - number
       - 最小集計単位時間内での振動L95値
         
-        L95 vibration value within the minimum aggregation unit time
+        L95 vibration value within the minimum aggregate unit time
     * - vibration_max
       - number
       - 最小集計単位時間内での振動最大値
         
-        Maximum vibration value within the minimum aggregation unit time
+        Maximum vibration value within the minimum aggregate unit time
     * - vibration_max_time
       - number
       - vibration_max 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1703,7 +1703,7 @@ aws/questar/soshinki/vibration/data_sum
       - number
       - 最小集計単位時間内での振動最小値
         
-        Minimum vibration value within the minimum aggregation unit time
+        Minimum vibration value within the minimum aggregate unit time
     * - vibration_min_time
       - number
       - vibration_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1794,7 +1794,7 @@ aws/questar/soshinki/vibration/data_sum
       - json-object
       - :ref:`最小集計単位 <section-measures-vibration>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregation unit <section-measures-vibration>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-vibration>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1809,37 +1809,37 @@ aws/questar/soshinki/vibration/data_sum
       - number
       - 最小集計単位時間内での振動平均値
         
-        Average vibration value within the minimum aggregation unit time
+        Average vibration value within the minimum aggregate unit time
     * - vibration_l5
       - number
       - 最小集計単位時間内での振動L5値
         
-        L5 vibration value within the minimum aggregation unit time
+        L5 vibration value within the minimum aggregate unit time
     * - vibration_l10
       - number
       - 最小集計単位時間内での振動L10値
         
-        L10 vibration value within the minimum aggregation unit time
+        L10 vibration value within the minimum aggregate unit time
     * - vibration_l50
       - number
       - 最小集計単位時間内での振動L50値
         
-        L50 vibration value within the minimum aggregation unit time
+        L50 vibration value within the minimum aggregate unit time
     * - vibration_l90
       - number
       - 最小集計単位時間内での振動L90値
         
-        L90 vibration value within the minimum aggregation unit time
+        L90 vibration value within the minimum aggregate unit time
     * - vibration_l95
       - number
       - 最小集計単位時間内での振動L95値
         
-        L95 vibration value within the minimum aggregation unit time
+        L95 vibration value within the minimum aggregate unit time
     * - vibration_max
       - number
       - 最小集計単位時間内での振動最大値
         
-        Maximum vibration value within the minimum aggregation unit time
+        Maximum vibration value within the minimum aggregate unit time
     * - vibration_max_time
       - number
       - vibration_max 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1849,7 +1849,7 @@ aws/questar/soshinki/vibration/data_sum
       - number
       - 最小集計単位時間内での振動最小値
         
-        Minimum vibration value within the minimum aggregation unit time
+        Minimum vibration value within the minimum aggregate unit time
     * - vibration_min_time
       - number
       - vibration_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1954,7 +1954,7 @@ aws/questar/soshinki/weather/data_sum
       - json-object
       - :ref:`最小集計単位 <section-measures-weather>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregation unit <section-measures-weather>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-weather>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1969,17 +1969,17 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での風速平均値
         
-        Average wind speed value within the minimum aggregation unit time
+        Average wind speed value within the minimum aggregate unit time
     * - wind_speed_l50
       - number
       - 最小集計単位時間内での風速L50値
         
-        L50 wind speed value within the minimum aggregation unit time
+        L50 wind speed value within the minimum aggregate unit time
     * - wind_speed_max
       - number
       - 最小集計単位時間内での風速最大値
         
-        Maximum wind speed value within the minimum aggregation unit time
+        Maximum wind speed value within the minimum aggregate unit time
     * - wind_speed_max_time
       - number
       - wind_speed_max 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1989,7 +1989,7 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での風速最小値
         
-        Minimum wind speed value within the minimum aggregation unit time
+        Minimum wind speed value within the minimum aggregate unit time
     * - wind_speed_min_time
       - number
       - wind_speed_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -2004,7 +2004,7 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での瞬間風速L50値
         
-        L50 wind gust speed value within the minimum aggregation unit time
+        L50 wind gust speed value within the minimum aggregate unit time
     * - wind_direction_latest
       - number
       - 計測データ取得時の風向最新値
@@ -2014,7 +2014,7 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での風向L50値
         
-        L50 wind direction value within the minimum aggregation unit time
+        L50 wind direction value within the minimum aggregate unit time
     * - temperature_latest
       - number
       - 計測データ取得時の温度最新値
@@ -2024,7 +2024,7 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での温度L50値
         
-        L50 temperature value within the minimum aggregation unit time
+        L50 temperature value within the minimum aggregate unit time
     * - humidity_latest
       - number
       - 計測データ取得時の湿度最新値
@@ -2034,7 +2034,7 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での湿度L50値
         
-        L50 humidity value within the minimum aggregation unit time
+        L50 humidity value within the minimum aggregate unit time
     * - accumulation_rainfall_latest
       - number
       - 計測データ取得時の積算雨量最新値
@@ -2044,7 +2044,7 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での積算雨量L50値
         
-        L50 accumulation rainfall value within the minimum aggregation unit time
+        L50 accumulation rainfall value within the minimum aggregate unit time
     * - uv_latest
       - number
       - 計測データ取得時の紫外線量最新値
@@ -2054,7 +2054,7 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での紫外線L50値
         
-        L50 UV index value within the minimum aggregation unit time
+        L50 UV index value within the minimum aggregate unit time
     * - light_latest
       - number
       - 計測データ取得時の光照度最新値
@@ -2064,9 +2064,9 @@ aws/questar/soshinki/weather/data_sum
       - number
       - 最小集計単位時間内での光照度L50値
         
-        L50 light illuminance value within the minimum aggregation unit time
+        L50 light illuminance value within the minimum aggregate unit time
 
 .. NOTE ::
 
     | L50は最小集計時間内での中央値を表しています
-    | L50 means median value within the minimum aggregation unit time.
+    | L50 means median value within the minimum aggregate unit time.

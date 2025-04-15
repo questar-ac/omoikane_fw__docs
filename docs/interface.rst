@@ -26,7 +26,7 @@ IoT Topics
       - Publish
       - :ref:`最小集計単位 <section-measures-noise>` の集計騒音計測データの送信先
         
-        Destination of noise measurement data in the :ref:`minimum aggregation unit <section-measures-noise>`
+        Destination of noise measurement data in the :ref:`minimum aggregate unit <section-measures-noise>`
     * - aws/questar/soshinki/vibration/data_chunk
       - Publish
       - :ref:`最小計測単位 <section-measures-vibration>` の収集振動計測データの送信先
@@ -36,7 +36,7 @@ IoT Topics
       - Publish
       - :ref:`最小集計単位 <section-measures-vibration>` の集計振動計測データの送信先
         
-        Destination of vibration measurement data in the :ref:`minimum aggregation unit <section-measures-vibration>`
+        Destination of vibration measurement data in the :ref:`minimum aggregate unit <section-measures-vibration>`
     * - aws/questar/soshinki/weather/data_chunk
       - Publish
       - :ref:`最小計測単位 <section-measures-weather>` の収集気象計測データの送信先
@@ -46,4 +46,4 @@ IoT Topics
       - Publish
       - :ref:`最小集計単位 <section-measures-weather>` の集計気象計測データの送信先
         
-        Destination of weather measurement data in the :ref:`minimum aggregation unit <section-measures-weather>`
+        Destination of weather measurement data in the :ref:`minimum aggregate unit <section-measures-weather>`

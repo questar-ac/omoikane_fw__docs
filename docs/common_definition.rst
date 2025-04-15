@@ -54,4 +54,4 @@ Data Type
     * - sum
       - 最小集計単位時間の計測データ
         
-        Measurement data in minimum aggregation unit time
+        Measurement data in minimum aggregate unit time

@@ -21,7 +21,7 @@ Measures suppoted
         Minimum Measurement Unit Time
       - 最小集計単位時間
         
-        Minimum Aggregation Unit Time
+        Minimum Aggregate Unit Time
     * - リオン [RION]
       - NL-42A
       - 1 秒 [seconds]
@@ -53,7 +53,7 @@ Measures suppoted
         Minimum Measurement Unit Time
       - 最小集計単位時間
         
-        Minimum Aggregation Unit Time
+        Minimum Aggregate Unit Time
     * - リオン [RION]
       - VM-55
       - 1 秒 [seconds]
@@ -81,7 +81,7 @@ Measures suppoted
         Minimum Measurement Unit Time
       - 最小集計単位時間
         
-        Minimum Aggregation Unit Time
+        Minimum Aggregate Unit Time
     * - misol
       - Weather Station WH24C
       - 16 秒 [seconds]
