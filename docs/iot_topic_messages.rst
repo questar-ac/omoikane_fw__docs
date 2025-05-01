@@ -28,120 +28,122 @@ aws/questar/soshinki/noise/data_chunk
     {
       "device_id": "SK000010",
       "device_data_type": "noise1/chunk",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "dod",
-      "data_aux": "RION NL-42A",
+      "data_aux": [
+        "RION NL-42A"
+      ],
       "data_chunk": [
         {
-          "timestamp": 1744262056460,
-          "Lp": 67.0,
-          "Lmax": 73.6,
-          "Lmin": 65.5,
-          "L5": 73.4,
-          "L10": 73.4,
-          "L50": 70.0,
-          "L90": 69.3,
-          "L95": 66.3
+          "timestamp": 1746137273928,
+          "Lp": 63.3,
+          "Lmax": 67.9,
+          "Lmin": 64.4,
+          "L5": 67.6,
+          "L10": 67.6,
+          "L50": 66.8,
+          "L90": 64.8,
+          "L95": 64.4
         },
         {
-          "timestamp": 1744262057462,
-          "Lp": 70.8,
-          "Lmax": 73.6,
-          "Lmin": 59.4,
-          "L5": 73.4,
-          "L10": 72.6,
-          "L50": 69.5,
-          "L90": 61.4,
-          "L95": 60.6
-        },
-        {
-          "timestamp": 1744262058463,
-          "Lp": 69.7,
-          "Lmax": 73.6,
-          "Lmin": 59.4,
-          "L5": 72.8,
-          "L10": 72.6,
-          "L50": 70.0,
+          "timestamp": 1746137274929,
+          "Lp": 65.9,
+          "Lmax": 67.9,
+          "Lmin": 61.5,
+          "L5": 67.6,
+          "L10": 67.4,
+          "L50": 65.8,
           "L90": 62.8,
-          "L95": 60.6
+          "L95": 62.5
         },
         {
-          "timestamp": 1744262059464,
-          "Lp": 70.8,
-          "Lmax": 73.6,
-          "Lmin": 53.3,
-          "L5": 72.8,
-          "L10": 72.6,
-          "L50": 69.4,
-          "L90": 60.0,
-          "L95": 58.1
-        },
-        {
-          "timestamp": 1744262060466,
-          "Lp": 68.6,
-          "Lmax": 74.4,
-          "Lmin": 53.3,
-          "L5": 73.4,
-          "L10": 73.1,
-          "L50": 69.6,
-          "L90": 60.6,
-          "L95": 58.1
-        },
-        {
-          "timestamp": 1744262061467,
-          "Lp": 73.8,
-          "Lmax": 77.4,
-          "Lmin": 53.3,
-          "L5": 75.2,
-          "L10": 73.4,
-          "L50": 70.1,
-          "L90": 60.6,
-          "L95": 59.8
-        },
-        {
-          "timestamp": 1744262062468,
-          "Lp": 66.2,
-          "Lmax": 77.4,
-          "Lmin": 53.3,
-          "L5": 74.0,
-          "L10": 73.8,
-          "L50": 70.8,
-          "L90": 61.4,
-          "L95": 59.8
-        },
-        {
-          "timestamp": 1744262063471,
-          "Lp": 68.0,
-          "Lmax": 77.4,
-          "Lmin": 53.3,
-          "L5": 74.0,
+          "timestamp": 1746137275931,
+          "Lp": 65.6,
+          "Lmax": 75.1,
+          "Lmin": 61.5,
+          "L5": 74.1,
           "L10": 73.6,
-          "L50": 70.1,
-          "L90": 62.2,
-          "L95": 60.0
+          "L50": 66.8,
+          "L90": 63.0,
+          "L95": 62.5
         },
         {
-          "timestamp": 1744262064471,
-          "Lp": 69.5,
-          "Lmax": 77.4,
-          "Lmin": 53.3,
-          "L5": 73.9,
-          "L10": 73.4,
-          "L50": 69.6,
-          "L90": 62.2,
-          "L95": 60.0
+          "timestamp": 1746137276932,
+          "Lp": 45.0,
+          "Lmax": 75.1,
+          "Lmin": 48.0,
+          "L5": 74.1,
+          "L10": 72.5,
+          "L50": 65.8,
+          "L90": 60.0,
+          "L95": 53.8
         },
         {
-          "timestamp": 1744262065473,
-          "Lp": 66.2,
-          "Lmax": 77.4,
-          "Lmin": 53.3,
-          "L5": 73.9,
-          "L10": 73.4,
-          "L50": 69.5,
-          "L90": 62.0,
-          "L95": 60.0
+          "timestamp": 1746137277933,
+          "Lp": 72.6,
+          "Lmax": 78.3,
+          "Lmin": 44.7,
+          "L5": 76.0,
+          "L10": 74.6,
+          "L50": 66.5,
+          "L90": 60.0,
+          "L95": 50.9
+        },
+        {
+          "timestamp": 1746137278936,
+          "Lp": 61.3,
+          "Lmax": 78.3,
+          "Lmin": 44.7,
+          "L5": 76.0,
+          "L10": 74.5,
+          "L50": 66.3,
+          "L90": 53.8,
+          "L95": 50.4
+        },
+        {
+          "timestamp": 1746137279938,
+          "Lp": 68.2,
+          "Lmax": 78.3,
+          "Lmin": 44.7,
+          "L5": 76.0,
+          "L10": 74.5,
+          "L50": 66.3,
+          "L90": 56.8,
+          "L95": 50.4
+        },
+        {
+          "timestamp": 1746137280937,
+          "Lp": 63.1,
+          "Lmax": 78.3,
+          "Lmin": 44.7,
+          "L5": 76.0,
+          "L10": 74.4,
+          "L50": 65.9,
+          "L90": 57.3,
+          "L95": 50.9
+        },
+        {
+          "timestamp": 1746137281939,
+          "Lp": 74.1,
+          "Lmax": 79.1,
+          "Lmin": 44.7,
+          "L5": 76.0,
+          "L10": 74.5,
+          "L50": 66.3,
+          "L90": 59.9,
+          "L95": 50.9
+        },
+        {
+          "timestamp": 1746137282940,
+          "Lp": 73.9,
+          "Lmax": 83.2,
+          "Lmin": 44.7,
+          "L5": 78.5,
+          "L10": 76.2,
+          "L50": 67.0,
+          "L90": 60.0,
+          "L95": 53.8
         }
       ]
     }
@@ -180,7 +182,7 @@ aws/questar/soshinki/noise/data_chunk
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -256,120 +258,122 @@ aws/questar/soshinki/noise/data_chunk
     {
       "device_id": "SK000010",
       "device_data_type": "noise2/chunk",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "dod",
-      "data_aux": "RION NL-43",
+      "data_aux": [
+        "RION NL-43"
+      ],
       "data_chunk": [
         {
-          "timestamp": 1744262292001,
-          "Lp": 71.1,
-          "Lmax": 76.6,
-          "Lmin": 69.4,
-          "L5": 76.4,
-          "L10": 76.1,
-          "L50": 73.3,
+          "timestamp": 1746139314297,
+          "Lp": 70.5,
+          "Lmax": 80.4,
+          "Lmin": 66.9,
+          "L5": 80.1,
+          "L10": 78.8,
+          "L50": 73.9,
+          "L90": 69.9,
+          "L95": 67.9
+        },
+        {
+          "timestamp": 1746139315364,
+          "Lp": 76.6,
+          "Lmax": 80.4,
+          "Lmin": 66.9,
+          "L5": 78.8,
+          "L10": 78.2,
+          "L50": 73.9,
+          "L90": 70.4,
+          "L95": 67.9
+        },
+        {
+          "timestamp": 1746139316302,
+          "Lp": 78.6,
+          "Lmax": 80.4,
+          "Lmin": 66.9,
+          "L5": 78.8,
+          "L10": 78.2,
+          "L50": 73.9,
+          "L90": 69.9,
+          "L95": 68.3
+        },
+        {
+          "timestamp": 1746139317304,
+          "Lp": 74.5,
+          "Lmax": 82.2,
+          "Lmin": 66.9,
+          "L5": 81.0,
+          "L10": 80.1,
+          "L50": 75.1,
+          "L90": 70.4,
+          "L95": 68.3
+        },
+        {
+          "timestamp": 1746139318305,
+          "Lp": 75.0,
+          "Lmax": 82.2,
+          "Lmin": 66.9,
+          "L5": 81.0,
+          "L10": 78.8,
+          "L50": 75.2,
+          "L90": 70.5,
+          "L95": 69.8
+        },
+        {
+          "timestamp": 1746139319306,
+          "Lp": 77.4,
+          "Lmax": 82.2,
+          "Lmin": 66.9,
+          "L5": 80.1,
+          "L10": 78.6,
+          "L50": 75.3,
           "L90": 70.8,
-          "L95": 70.8
+          "L95": 69.8
         },
         {
-          "timestamp": 1744262293005,
-          "Lp": 68.5,
-          "Lmax": 76.6,
-          "Lmin": 65.3,
-          "L5": 76.1,
-          "L10": 76.0,
-          "L50": 72.4,
-          "L90": 68.5,
-          "L95": 67.6
+          "timestamp": 1746139320308,
+          "Lp": 76.6,
+          "Lmax": 82.2,
+          "Lmin": 66.9,
+          "L5": 80.1,
+          "L10": 78.4,
+          "L50": 75.5,
+          "L90": 70.8,
+          "L95": 69.9
         },
         {
-          "timestamp": 1744262294008,
-          "Lp": 73.4,
-          "Lmax": 76.6,
-          "Lmin": 65.3,
-          "L5": 76.1,
-          "L10": 74.5,
-          "L50": 72.4,
-          "L90": 68.5,
-          "L95": 68.0
+          "timestamp": 1746139321308,
+          "Lp": 72.9,
+          "Lmax": 82.2,
+          "Lmin": 66.9,
+          "L5": 80.1,
+          "L10": 78.2,
+          "L50": 75.5,
+          "L90": 71.2,
+          "L95": 69.9
         },
         {
-          "timestamp": 1744262295008,
-          "Lp": 58.2,
-          "Lmax": 76.6,
-          "Lmin": 58.2,
-          "L5": 76.0,
-          "L10": 74.5,
-          "L50": 72.4,
-          "L90": 68.0,
-          "L95": 65.0
+          "timestamp": 1746139322312,
+          "Lp": 73.1,
+          "Lmax": 82.2,
+          "Lmin": 66.9,
+          "L5": 80.1,
+          "L10": 78.6,
+          "L50": 75.6,
+          "L90": 71.7,
+          "L95": 70.4
         },
         {
-          "timestamp": 1744262296010,
-          "Lp": 51.5,
-          "Lmax": 76.6,
-          "Lmin": 51.5,
-          "L5": 76.0,
-          "L10": 74.3,
-          "L50": 71.2,
-          "L90": 58.2,
-          "L95": 57.5
-        },
-        {
-          "timestamp": 1744262297012,
-          "Lp": 57.9,
-          "Lmax": 76.6,
-          "Lmin": 47.0,
-          "L5": 75.0,
-          "L10": 74.0,
-          "L50": 70.7,
-          "L90": 56.3,
-          "L95": 53.3
-        },
-        {
-          "timestamp": 1744262298013,
-          "Lp": 51.3,
-          "Lmax": 76.6,
-          "Lmin": 46.7,
-          "L5": 75.0,
-          "L10": 73.9,
-          "L50": 68.9,
-          "L90": 53.4,
-          "L95": 51.3
-        },
-        {
-          "timestamp": 1744262299014,
-          "Lp": 70.8,
-          "Lmax": 76.6,
-          "Lmin": 46.7,
-          "L5": 74.5,
-          "L10": 73.9,
-          "L50": 68.9,
-          "L90": 54.1,
-          "L95": 51.3
-        },
-        {
-          "timestamp": 1744262300016,
-          "Lp": 60.2,
-          "Lmax": 76.6,
-          "Lmin": 46.7,
-          "L5": 74.5,
-          "L10": 73.7,
-          "L50": 68.4,
-          "L90": 54.4,
-          "L95": 51.5
-        },
-        {
-          "timestamp": 1744262301017,
-          "Lp": 63.9,
-          "Lmax": 76.6,
-          "Lmin": 42.4,
-          "L5": 74.3,
-          "L10": 73.6,
-          "L50": 67.1,
-          "L90": 51.3,
-          "L95": 47.1
+          "timestamp": 1746139323314,
+          "Lp": 75.2,
+          "Lmax": 82.2,
+          "Lmin": 66.9,
+          "L5": 80.1,
+          "L10": 78.4,
+          "L50": 75.7,
+          "L90": 71.9,
+          "L95": 70.4
         }
       ]
     }
@@ -408,7 +412,7 @@ aws/questar/soshinki/noise/data_chunk
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -485,58 +489,60 @@ aws/questar/soshinki/noise/data_chunk
     {
       "device_id": "SK000010",
       "device_data_type": "noise4/chunk",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "as",
-      "data_aux": "ACO TYPE3666",
+      "data_aux": [
+        "ACO TYPE3666"
+      ],
       "data_chunk": [
         {
-          "timestamp": 1744269795391,
-          "Lp": 43.7
+          "timestamp": 1746137948290,
+          "Lp": 59.3
         },
         {
-          "timestamp": 1744269796366,
-          "Lp": 50.0
+          "timestamp": 1746137949329,
+          "Lp": 66.7
         },
         {
-          "timestamp": 1744269797405,
-          "Lp": 41.3
+          "timestamp": 1746137950306,
+          "Lp": 62.8
         },
         {
-          "timestamp": 1744269798381,
-          "Lp": 47.8
+          "timestamp": 1746137951280,
+          "Lp": 67.6
         },
         {
-          "timestamp": 1744269799422,
-          "Lp": 49.4
+          "timestamp": 1746137952325,
+          "Lp": 62.4
         },
         {
-          "timestamp": 1744269800397,
-          "Lp": 45.9
+          "timestamp": 1746137953294,
+          "Lp": 58.1
         },
         {
-          "timestamp": 1744269801373,
-          "Lp": 49.3
+          "timestamp": 1746137954268,
+          "Lp": 61.1
         },
         {
-          "timestamp": 1744269802411,
-          "Lp": 44.7
+          "timestamp": 1746137955303,
+          "Lp": 53.0
         },
         {
-          "timestamp": 1744269803387,
-          "Lp": 41.0
+          "timestamp": 1746137956278,
+          "Lp": 46.1
         },
         {
-          "timestamp": 1744269804364,
-          "Lp": 52.1
+          "timestamp": 1746137957315,
+          "Lp": 50.6
         },
         {
-          "timestamp": 1744269805403,
-          "Lp": 56.5
+          "timestamp": 1746137958289,
+          "Lp": 53.3
         },
         {
-          "timestamp": 1744269806379,
-          "Lp": 53.4
+          "timestamp": 1746137959264,
+          "Lp": 61.0
         }
       ]
     }
@@ -575,7 +581,7 @@ aws/questar/soshinki/noise/data_chunk
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -616,120 +622,122 @@ aws/questar/soshinki/vibration/data_chunk
     {
       "device_id": "SK000010",
       "device_data_type": "vibration1/chunk",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "dod",
-      "data_aux": "RION VM-55",
+      "data_aux": [
+        "RION VM-55"
+      ],
       "data_chunk": [
         {
-          "timestamp": 1744262454723,
-          "Lv": 30.3,
-          "Lvmax": 31.7,
-          "Lvmin": 30.5,
-          "L5": 31.4,
-          "L10": 31.4,
-          "L50": 31.1,
-          "L90": 30.6,
-          "L95": 30.5
+          "timestamp": 1746137464509,
+          "Lv": 68.5,
+          "Lvmax": 72.6,
+          "Lvmin": 65.7,
+          "L5": 72.5,
+          "L10": 72.5,
+          "L50": 71.1,
+          "L90": 66.8,
+          "L95": 66.1
         },
         {
-          "timestamp": 1744262455725,
-          "Lv": 31.3,
-          "Lvmax": 32.2,
-          "Lvmin": 29.8,
-          "L5": 32.0,
-          "L10": 32.0,
-          "L50": 31.2,
-          "L90": 30.3,
-          "L95": 30.0
+          "timestamp": 1746137465512,
+          "Lv": 69.7,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.2,
+          "L10": 73.9,
+          "L50": 71.7,
+          "L90": 68.5,
+          "L95": 66.8
         },
         {
-          "timestamp": 1744262456726,
-          "Lv": 33.0,
-          "Lvmax": 33.0,
-          "Lvmin": 29.8,
-          "L5": 32.8,
-          "L10": 32.6,
-          "L50": 31.3,
-          "L90": 30.5,
-          "L95": 30.0
+          "timestamp": 1746137466514,
+          "Lv": 74.3,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 73.9,
+          "L10": 73.6,
+          "L50": 71.1,
+          "L90": 68.8,
+          "L95": 66.8
         },
         {
-          "timestamp": 1744262457728,
-          "Lv": 32.7,
-          "Lvmax": 33.9,
-          "Lvmin": 29.8,
-          "L5": 33.6,
-          "L10": 33.2,
-          "L50": 31.5,
-          "L90": 30.5,
-          "L95": 30.3
+          "timestamp": 1746137467515,
+          "Lv": 72.1,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.3,
+          "L10": 73.9,
+          "L50": 71.5,
+          "L90": 69.2,
+          "L95": 68.5
         },
         {
-          "timestamp": 1744262458730,
-          "Lv": 33.6,
-          "Lvmax": 34.0,
-          "Lvmin": 29.8,
-          "L5": 33.8,
-          "L10": 33.6,
-          "L50": 31.9,
-          "L90": 30.6,
-          "L95": 30.3
+          "timestamp": 1746137468517,
+          "Lv": 72.9,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.2,
+          "L10": 73.9,
+          "L50": 71.5,
+          "L90": 69.2,
+          "L95": 68.5
         },
         {
-          "timestamp": 1744262459731,
-          "Lv": 32.2,
-          "Lvmax": 34.0,
-          "Lvmin": 29.8,
-          "L5": 33.8,
-          "L10": 33.6,
-          "L50": 32.1,
-          "L90": 30.7,
-          "L95": 30.5
+          "timestamp": 1746137469518,
+          "Lv": 72.1,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.2,
+          "L10": 73.6,
+          "L50": 71.5,
+          "L90": 69.2,
+          "L95": 68.5
         },
         {
-          "timestamp": 1744262460733,
-          "Lv": 30.9,
-          "Lvmax": 34.0,
-          "Lvmin": 29.8,
-          "L5": 33.7,
-          "L10": 33.5,
-          "L50": 32.0,
-          "L90": 30.8,
-          "L95": 30.5
+          "timestamp": 1746137470520,
+          "Lv": 67.5,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 73.9,
+          "L10": 73.4,
+          "L50": 71.3,
+          "L90": 68.8,
+          "L95": 68.5
         },
         {
-          "timestamp": 1744262461734,
-          "Lv": 31.2,
-          "Lvmax": 34.0,
-          "Lvmin": 29.8,
-          "L5": 33.7,
-          "L10": 33.4,
-          "L50": 31.6,
-          "L90": 30.4,
-          "L95": 30.1
+          "timestamp": 1746137471522,
+          "Lv": 61.9,
+          "Lvmax": 74.5,
+          "Lvmin": 62.6,
+          "L5": 73.9,
+          "L10": 73.2,
+          "L50": 70.9,
+          "L90": 66.2,
+          "L95": 65.0
         },
         {
-          "timestamp": 1744262462737,
-          "Lv": 32.9,
-          "Lvmax": 34.0,
-          "Lvmin": 29.8,
-          "L5": 33.6,
-          "L10": 33.4,
-          "L50": 31.5,
-          "L90": 30.4,
-          "L95": 30.1
+          "timestamp": 1746137472522,
+          "Lv": 55.4,
+          "Lvmax": 74.5,
+          "Lvmin": 56.0,
+          "L5": 73.9,
+          "L10": 73.0,
+          "L50": 70.5,
+          "L90": 61.9,
+          "L95": 58.6
         },
         {
-          "timestamp": 1744262463739,
-          "Lv": 31.9,
-          "Lvmax": 34.0,
-          "Lvmin": 29.8,
-          "L5": 33.6,
-          "L10": 33.4,
-          "L50": 31.7,
-          "L90": 30.5,
-          "L95": 30.3
+          "timestamp": 1746137473524,
+          "Lv": 49.0,
+          "Lvmax": 74.5,
+          "Lvmin": 49.6,
+          "L5": 73.9,
+          "L10": 72.9,
+          "L50": 70.0,
+          "L90": 56.0,
+          "L95": 52.8
         }
       ]
     }
@@ -768,7 +776,7 @@ aws/questar/soshinki/vibration/data_chunk
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -845,58 +853,60 @@ aws/questar/soshinki/vibration/data_chunk
     {
       "device_id": "SK000010",
       "device_data_type": "vibration4/chunk",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "as",
-      "data_aux": "ACO TYPE3666",
+      "data_aux": [
+        "ACO TYPE3666"
+      ],
       "data_chunk": [
         {
-          "timestamp": 1744269939328,
-          "Lv": 25.9
+          "timestamp": 1746136836370,
+          "Lv": 26.9
         },
         {
-          "timestamp": 1744269940335,
-          "Lv": 24.8
+          "timestamp": 1746136837378,
+          "Lv": 27.3
         },
         {
-          "timestamp": 1744269941343,
-          "Lv": 25.7
+          "timestamp": 1746136838385,
+          "Lv": 26.1
         },
         {
-          "timestamp": 1744269942350,
-          "Lv": 25.4
+          "timestamp": 1746136839330,
+          "Lv": 27.3
         },
         {
-          "timestamp": 1744269943359,
-          "Lv": 25.2
+          "timestamp": 1746136840338,
+          "Lv": 26.4
         },
         {
-          "timestamp": 1744269944368,
-          "Lv": 27.2
-        },
-        {
-          "timestamp": 1744269945375,
-          "Lv": 25.8
-        },
-        {
-          "timestamp": 1744269946383,
-          "Lv": 25.4
-        },
-        {
-          "timestamp": 1744269947327,
-          "Lv": 25.9
-        },
-        {
-          "timestamp": 1744269948335,
+          "timestamp": 1746136841346,
           "Lv": 26.7
         },
         {
-          "timestamp": 1744269949343,
-          "Lv": 26.5
+          "timestamp": 1746136842354,
+          "Lv": 26.0
         },
         {
-          "timestamp": 1744269950352,
-          "Lv": 27.2
+          "timestamp": 1746136843362,
+          "Lv": 26.3
+        },
+        {
+          "timestamp": 1746136844370,
+          "Lv": 26.2
+        },
+        {
+          "timestamp": 1746136845377,
+          "Lv": 26.4
+        },
+        {
+          "timestamp": 1746136846385,
+          "Lv": 26.6
+        },
+        {
+          "timestamp": 1746136847329,
+          "Lv": 26.5
         }
       ]
     }
@@ -935,7 +945,7 @@ aws/questar/soshinki/vibration/data_chunk
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -976,51 +986,53 @@ aws/questar/soshinki/weather/data_chunk
     {
       "device_id": "SK000010",
       "device_data_type": "weather1/chunk",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "wh",
-      "data_aux": "Weather Station WH24C",
+      "data_aux": [
+        "Weather Station WH24C"
+      ],
       "data_chunk": [
         {
-          "timestamp": 1744276729195,
+          "timestamp": 1746136973350,
           "wind_speed": 0.0,
           "gust_speed": 0.0,
-          "wind_direction": 62,
-          "temperature": 16.4,
-          "humidity": 69,
+          "wind_direction": 254,
+          "temperature": 18.4,
+          "humidity": 49,
           "accumulation_rainfall": 18.9,
           "uv": 0,
           "light": 0
         },
         {
-          "timestamp": 1744276745194,
+          "timestamp": 1746136989349,
           "wind_speed": 0.0,
           "gust_speed": 0.0,
-          "wind_direction": 62,
-          "temperature": 16.4,
-          "humidity": 69,
+          "wind_direction": 254,
+          "temperature": 18.4,
+          "humidity": 49,
           "accumulation_rainfall": 18.9,
           "uv": 0,
           "light": 0
         },
         {
-          "timestamp": 1744276761197,
+          "timestamp": 1746137005349,
           "wind_speed": 0.0,
           "gust_speed": 0.0,
-          "wind_direction": 62,
-          "temperature": 16.4,
-          "humidity": 69,
+          "wind_direction": 254,
+          "temperature": 18.4,
+          "humidity": 49,
           "accumulation_rainfall": 18.9,
           "uv": 0,
           "light": 0
         },
         {
-          "timestamp": 1744276777196,
+          "timestamp": 1746137021350,
           "wind_speed": 0.0,
           "gust_speed": 0.0,
-          "wind_direction": 62,
-          "temperature": 16.4,
-          "humidity": 69,
+          "wind_direction": 254,
+          "temperature": 18.4,
+          "humidity": 49,
           "accumulation_rainfall": 18.9,
           "uv": 0,
           "light": 0
@@ -1062,7 +1074,7 @@ aws/questar/soshinki/weather/data_chunk
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -1140,23 +1152,25 @@ aws/questar/soshinki/noise/data_sum
     {
       "device_id": "SK000010",
       "device_data_type": "noise1/sum",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "dod",
-      "data_aux": "RION NL-42A",
+      "data_aux": [
+        "RION NL-42A"
+      ],
       "data_sum": {
-        "timestamp": 1744262065473,
-        "noise_latest": 66.2,
-        "noise_average": 69.1,
-        "noise_l5": 73.65,
-        "noise_l10": 73.4,
-        "noise_l50": 69.8,
-        "noise_l90": 61.7,
-        "noise_l95": 60.0,
-        "noise_max": 73.8,
-        "noise_max_time": 1744262061467,
-        "noise_min": 66.2,
-        "noise_min_time": 1744262062468
+        "timestamp": 1746137282940,
+        "noise_latest": 73.9,
+        "noise_average": 65.3,
+        "noise_l5": 76.0,
+        "noise_l10": 74.45,
+        "noise_l50": 66.3,
+        "noise_l90": 60.0,
+        "noise_l95": 52.35,
+        "noise_max": 74.1,
+        "noise_max_time": 1746137281939,
+        "noise_min": 45.0,
+        "noise_min_time": 1746137276932
       }
     }
 
@@ -1194,7 +1208,7 @@ aws/questar/soshinki/noise/data_sum
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -1245,7 +1259,7 @@ aws/questar/soshinki/noise/data_sum
         L95 noise value within the minimum aggregate unit time
     * - noise_max
       - number
-      - 最小集計単位内での騒音最大値
+      - 最小集計単位時間内での騒音最大値
         
         Maximum noise value within the minimum aggregate unit time
     * - noise_max_time
@@ -1285,23 +1299,25 @@ aws/questar/soshinki/noise/data_sum
     {
       "device_id": "SK000010",
       "device_data_type": "noise2/sum",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "dod",
-      "data_aux": "RION NL-43",
+      "data_aux": [
+        "RION NL-43"
+      ],
       "data_sum": {
-        "timestamp": 1744262301017,
-        "noise_latest": 63.9,
-        "noise_average": 62.7,
-        "noise_l5": 75.5,
-        "noise_l10": 74.15,
-        "noise_l50": 70.95,
-        "noise_l90": 57.25,
-        "noise_l95": 55.4,
-        "noise_max": 73.4,
-        "noise_max_time": 1744262294008,
-        "noise_min": 51.3,
-        "noise_min_time": 1744262298013
+        "timestamp": 1746139323314,
+        "noise_latest": 75.2,
+        "noise_average": 75.0,
+        "noise_l5": 80.1,
+        "noise_l10": 78.5,
+        "noise_l50": 75.25,
+        "noise_l90": 70.65,
+        "noise_l95": 69.8,
+        "noise_max": 78.6,
+        "noise_max_time": 1746139316302,
+        "noise_min": 70.5,
+        "noise_min_time": 1746139314297
       }
     }
 
@@ -1339,7 +1355,7 @@ aws/questar/soshinki/noise/data_sum
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -1390,7 +1406,7 @@ aws/questar/soshinki/noise/data_sum
         L95 noise value within the minimum aggregate unit time
     * - noise_max
       - number
-      - 最小集計単位内での騒音最大値
+      - 最小集計単位時間内での騒音最大値
         
         Maximum noise value within the minimum aggregate unit time
     * - noise_max_time
@@ -1436,23 +1452,25 @@ aws/questar/soshinki/noise/data_sum
     {
       "device_id": "SK000010",
       "device_data_type": "noise4/sum",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "as",
-      "data_aux": "ACO TYPE3666",
+      "data_aux": [
+        "ACO TYPE3666"
+      ],
       "data_sum": {
-        "timestamp": 1744269806379,
-        "noise_latest": 53.4,
-        "noise_average": 47.9,
-        "noise_l5": 53.4,
-        "noise_l10": 52.1,
-        "noise_l50": 48.55,
-        "noise_l90": 43.7,
-        "noise_l95": 41.3,
-        "noise_max": 56.5,
-        "noise_max_time": 1744269805403,
-        "noise_min": 41.0,
-        "noise_min_time": 1744269803387
+        "timestamp": 1746137959264,
+        "noise_latest": 61.0,
+        "noise_average": 58.5,
+        "noise_l5": 66.7,
+        "noise_l10": 62.8,
+        "noise_l50": 60.15,
+        "noise_l90": 53.0,
+        "noise_l95": 50.6,
+        "noise_max": 67.6,
+        "noise_max_time": 1746137951280,
+        "noise_min": 46.1,
+        "noise_min_time": 1746137956278
       }
     }
 
@@ -1490,7 +1508,7 @@ aws/questar/soshinki/noise/data_sum
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -1526,7 +1544,7 @@ aws/questar/soshinki/noise/data_sum
         L10 noise value within the minimum aggregate unit time
     * - noise_l50
       - number
-      - 最小集計単位内での騒音L50値
+      - 最小集計単位時間内での騒音L50値
         
         L50 noise value within the minimum aggregate unit time
     * - noise_l90
@@ -1536,7 +1554,7 @@ aws/questar/soshinki/noise/data_sum
         L90 noise value within the minimum aggregate unit time
     * - noise_l95
       - number
-      - 最小集計単位内での騒音L95値
+      - 最小集計単位時間内での騒音L95値
         
         L95 noise value within the minimum aggregate unit time
     * - noise_max
@@ -1586,23 +1604,25 @@ aws/questar/soshinki/vibration/data_sum
     {
       "device_id": "SK000010",
       "device_data_type": "vibration1/sum",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "dod",
-      "data_aux": "RION VM-55",
+      "data_aux": [
+        "RION VM-55"
+      ],
       "data_sum": {
-        "timestamp": 1744262463739,
-        "vibration_latest": 31.9,
-        "vibration_average": 32.0,
-        "vibration_l5": 33.6,
-        "vibration_l10": 33.4,
-        "vibration_l50": 31.55,
-        "vibration_l90": 30.5,
-        "vibration_l95": 30.3,
-        "vibration_max": 33.6,
-        "vibration_max_time": 1744262458730,
-        "vibration_min": 30.3,
-        "vibration_min_time": 1744262454723
+        "timestamp": 1746137473524,
+        "vibration_latest": 49.0,
+        "vibration_average": 66.3,
+        "vibration_l5": 73.9,
+        "vibration_l10": 73.5,
+        "vibration_l50": 71.2,
+        "vibration_l90": 68.65,
+        "vibration_l95": 66.8,
+        "vibration_max": 74.3,
+        "vibration_max_time": 1746137466514,
+        "vibration_min": 49.0,
+        "vibration_min_time": 1746137473524
       }
     }
 
@@ -1640,7 +1660,7 @@ aws/questar/soshinki/vibration/data_sum
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -1732,23 +1752,25 @@ aws/questar/soshinki/vibration/data_sum
     {
       "device_id": "SK000010",
       "device_data_type": "vibration4/sum",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "as",
-      "data_aux": "ACO TYPE3666",
+      "data_aux": [
+        "ACO TYPE3666"
+      ],
       "data_sum": {
-        "timestamp": 1744269950352,
-        "vibration_latest": 27.2,
-        "vibration_average": 26.0,
-        "vibration_l5": 27.2,
-        "vibration_l10": 26.7,
-        "vibration_l50": 25.85,
-        "vibration_l90": 25.4,
-        "vibration_l95": 25.2,
-        "vibration_max": 27.2,
-        "vibration_max_time": 1744269944368,
-        "vibration_min": 24.8,
-        "vibration_min_time": 1744269940335
+        "timestamp": 1746136847329,
+        "vibration_latest": 26.5,
+        "vibration_average": 26.6,
+        "vibration_l5": 27.3,
+        "vibration_l10": 26.9,
+        "vibration_l50": 26.45,
+        "vibration_l90": 26.2,
+        "vibration_l95": 26.1,
+        "vibration_max": 27.3,
+        "vibration_max_time": 1746136837378,
+        "vibration_min": 26.0,
+        "vibration_min_time": 1746136842354
       }
     }
 
@@ -1786,7 +1808,7 @@ aws/questar/soshinki/vibration/data_sum
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -1882,27 +1904,29 @@ aws/questar/soshinki/weather/data_sum
     {
       "device_id": "SK000010",
       "device_data_type": "weather1/sum",
-      "data_version": "20250402",
+      "data_version": "20250502",
       "data_no": 1,
       "data_key": "wh",
-      "data_aux": "Weather Station WH24C",
+      "data_aux": [
+        "Weather Station WH24C"
+      ],
       "data_sum": {
-        "timestamp": 1744276777196,
+        "timestamp": 1746137021350,
         "wind_speed_latest": 0.0,
         "wind_speed_average": 0.0,
         "wind_speed_l50": 0.0,
         "wind_speed_max": 0.0,
-        "wind_speed_max_time": 1744276729195,
+        "wind_speed_max_time": 1746136973350,
         "wind_speed_min": 0.0,
-        "wind_speed_min_time": 1744276729195,
+        "wind_speed_min_time": 1746136973350,
         "gust_speed_latest": 0.0,
         "gust_speed_l50": 0.0,
-        "wind_direction_latest": 62,
-        "wind_direction_l50": 62,
-        "temperature_latest": 16.4,
-        "temperature_l50": 16.4,
-        "humidity_latest": 69,
-        "humidity_l50": 69,
+        "wind_direction_latest": 254,
+        "wind_direction_l50": 254,
+        "temperature_latest": 18.4,
+        "temperature_l50": 18.4,
+        "humidity_latest": 49,
+        "humidity_l50": 49,
         "accumulation_rainfall_latest": 18.9,
         "accumulation_rainfall_l50": 18.9,
         "uv_latest": 0,
@@ -1946,7 +1970,7 @@ aws/questar/soshinki/weather/data_sum
         
         Device-specific commands used to acquire this measurement data
     * - data_aux
-      - string
+      - array<string>
       - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
         
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
@@ -2052,7 +2076,7 @@ aws/questar/soshinki/weather/data_sum
         Latest UV index value at this data was acquired
     * - uv_l50
       - number
-      - 最小集計単位時間内での紫外線L50値
+      - 最小集計単位時間内での紫外線量L50値
         
         L50 UV index value within the minimum aggregate unit time
     * - light_latest
