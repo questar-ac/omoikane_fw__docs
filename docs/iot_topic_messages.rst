@@ -148,8 +148,8 @@ aws/questar/soshinki/noise/data_chunk
       ]
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -378,8 +378,8 @@ aws/questar/soshinki/noise/data_chunk
       ]
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -547,8 +547,8 @@ aws/questar/soshinki/noise/data_chunk
       ]
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -742,8 +742,8 @@ aws/questar/soshinki/vibration/data_chunk
       ]
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -911,8 +911,8 @@ aws/questar/soshinki/vibration/data_chunk
       ]
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -990,7 +990,7 @@ aws/questar/soshinki/weather/data_chunk
       "data_no": 1,
       "data_key": "wh",
       "data_aux": [
-        "Weather Station WH24C"
+        "misol Weather Station WH24C"
       ],
       "data_chunk": [
         {
@@ -1040,8 +1040,8 @@ aws/questar/soshinki/weather/data_chunk
       ]
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -1174,8 +1174,8 @@ aws/questar/soshinki/noise/data_sum
       }
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -1321,8 +1321,8 @@ aws/questar/soshinki/noise/data_sum
       }
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -1425,7 +1425,7 @@ aws/questar/soshinki/noise/data_sum
         
         Time at which the noise_min value was acquired. UNIX time in milliseconds (UTC)
 
-.. NOTE ::
+.. note ::
 
     | `noise2/data_sum`_ は `noise1/data_sum`_ と同一形式
     | `noise2/data_sum`_ has same format as `noise1/data_sum`_.
@@ -1474,7 +1474,7 @@ aws/questar/soshinki/noise/data_sum
       }
     }
 
-*Field Items*
+*JOSN Object Items*
 ^^^^^^^^^^^^^
 
 .. list-table::
@@ -1578,7 +1578,7 @@ aws/questar/soshinki/noise/data_sum
         
         Time at which the vibration_min value was acquired. UNIX time in milliseconds (UTC)
 
-.. NOTE ::
+.. note ::
 
     | `noise4/data_sum`_ は `noise1/data_sum`_ と同一形式
     | `noise4/data_sum`_ has same format as `noise1/data_sum`_.
@@ -1626,8 +1626,8 @@ aws/questar/soshinki/vibration/data_sum
       }
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -1774,7 +1774,7 @@ aws/questar/soshinki/vibration/data_sum
       }
     }
 
-*Field Items*
+*JOSN Object Items*
 ^^^^^^^^^^^^^
 
 .. list-table::
@@ -1878,7 +1878,7 @@ aws/questar/soshinki/vibration/data_sum
         
         Time at which the vibration_min value was acquired. UNIX time in milliseconds (UTC)
 
-.. NOTE ::
+.. note ::
 
     | `vibration4/data_sum`_ は `vibration1/data_sum`_ と同一形式
     | `vibration4/data_sum`_ has same format as `vibration1/data_sum`_.
@@ -1908,7 +1908,7 @@ aws/questar/soshinki/weather/data_sum
       "data_no": 1,
       "data_key": "wh",
       "data_aux": [
-        "Weather Station WH24C"
+        "misol Weather Station WH24C"
       ],
       "data_sum": {
         "timestamp": 1746137021350,
@@ -1936,8 +1936,8 @@ aws/questar/soshinki/weather/data_sum
       }
     }
 
-*Field Items*
-^^^^^^^^^^^^^
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -2090,7 +2090,7 @@ aws/questar/soshinki/weather/data_sum
         
         L50 light illuminance value within the minimum aggregate unit time
 
-.. NOTE ::
+.. note ::
 
     | L50は最小集計時間内での中央値を表しています
     | L50 means median value within the minimum aggregate unit time.
