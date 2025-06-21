@@ -188,9 +188,9 @@ aws/questar/soshinki/noise/data_chunk
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_chunk
       - array<json-object>
-      - :ref:`最小計測単位 <section-measures-noise>` の収集計測データが格納される配列
+      - :ref:`最小計測単位 <section-measureparameters-noise>` の収集計測データが格納される配列
         
-        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measures-noise>`.
+        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measureparameters-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -418,9 +418,9 @@ aws/questar/soshinki/noise/data_chunk
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_chunk
       - array<json-object>
-      - :ref:`最小計測単位 <section-measures-noise>` の収集計測データが格納される配列
+      - :ref:`最小計測単位 <section-measureparameters-noise>` の収集計測データが格納される配列
         
-        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measures-noise>`.
+        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measureparameters-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -587,9 +587,9 @@ aws/questar/soshinki/noise/data_chunk
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_chunk
       - array<json-object>
-      - :ref:`最小計測単位 <section-measures-noise>` の収集計測データが格納される配列
+      - :ref:`最小計測単位 <section-measureparameters-noise>` の収集計測データが格納される配列
         
-        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measures-noise>`.
+        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measureparameters-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -782,9 +782,9 @@ aws/questar/soshinki/vibration/data_chunk
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_chunk
       - array<json-object>
-      - :ref:`最小計測単位 <section-measures-vibration>` の収集計測データが格納される配列
+      - :ref:`最小計測単位 <section-measureparameters-vibration>` の収集計測データが格納される配列
         
-        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measures-vibration>`.
+        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measureparameters-vibration>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -951,9 +951,9 @@ aws/questar/soshinki/vibration/data_chunk
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_chunk
       - array<json-object>
-      - :ref:`最小計測単位 <section-measures-vibration>` の収集計測データが格納される配列
+      - :ref:`最小計測単位 <section-measureparameters-vibration>` の収集計測データが格納される配列
         
-        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measures-vibration>`.
+        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measureparameters-vibration>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1080,9 +1080,9 @@ aws/questar/soshinki/weather/data_chunk
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_chunk
       - array<json-object>
-      - :ref:`最小計測単位 <section-measures-weather>` の収集計測データが格納される配列
+      - :ref:`最小計測単位 <section-measureparameters-weather>` の収集計測データが格納される配列
         
-        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measures-weather>`.
+        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measureparameters-weather>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1214,9 +1214,9 @@ aws/questar/soshinki/noise/data_sum
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_sum
       - json-object
-      - :ref:`最小集計単位 <section-measures-noise>` の計測データが格納される
+      - :ref:`最小集計単位 <section-measureparameters-noise>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-noise>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measureparameters-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1361,9 +1361,9 @@ aws/questar/soshinki/noise/data_sum
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_sum
       - json-object
-      - :ref:`最小集計単位 <section-measures-noise>` の計測データが格納される
+      - :ref:`最小集計単位 <section-measureparameters-noise>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-noise>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measureparameters-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1475,7 +1475,7 @@ aws/questar/soshinki/noise/data_sum
     }
 
 *JOSN Object Items*
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -1514,9 +1514,9 @@ aws/questar/soshinki/noise/data_sum
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_sum
       - json-object
-      - :ref:`最小集計単位 <section-measures-noise>` の計測データが格納される
+      - :ref:`最小集計単位 <section-measureparameters-noise>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-noise>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measureparameters-noise>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1666,9 +1666,9 @@ aws/questar/soshinki/vibration/data_sum
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_sum
       - json-object
-      - :ref:`最小集計単位 <section-measures-vibration>` の計測データが格納される
+      - :ref:`最小集計単位 <section-measureparameters-vibration>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-vibration>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measureparameters-vibration>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1775,7 +1775,7 @@ aws/questar/soshinki/vibration/data_sum
     }
 
 *JOSN Object Items*
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -1814,9 +1814,9 @@ aws/questar/soshinki/vibration/data_sum
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_sum
       - json-object
-      - :ref:`最小集計単位 <section-measures-vibration>` の計測データが格納される
+      - :ref:`最小集計単位 <section-measureparameters-vibration>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-vibration>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measureparameters-vibration>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
@@ -1976,9 +1976,9 @@ aws/questar/soshinki/weather/data_sum
         Stores auxiliary information about this data, currently vendor and model names of the target measure.
     * - data_sum
       - json-object
-      - :ref:`最小集計単位 <section-measures-weather>` の計測データが格納される
+      - :ref:`最小集計単位 <section-measureparameters-weather>` の計測データが格納される
         
-        Stores measurement data in the :ref:`minimum aggregate unit <section-measures-weather>`.
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measureparameters-weather>`.
     * - timestamp
       - number
       - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
