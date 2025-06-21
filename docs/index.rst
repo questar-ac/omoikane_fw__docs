@@ -15,6 +15,10 @@ Contents
     :caption: Getting started
 
     ./overview
+    ./installation
+    ./wsl_linux
+    ./usbserial_setup
+    ./measure_setup
 
 .. toctree::
     :maxdepth: 2
@@ -29,4 +33,4 @@ Contents
     :caption: Target hardware
 
     ./platforms
-    ./measures
+    ./measure_parameters
