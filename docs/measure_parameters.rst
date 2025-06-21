@@ -1,11 +1,11 @@
-.. _chapter-measures:
+.. _chapter-measureparameters:
 
-=================
-Measures suppoted
-=================
+=======================
+Parameters for measures
+=======================
 
 
-.. _section-measures-noise:
+.. _section-measureparameters-noise:
 
 騒音計 [Noise measures]
 =======================
@@ -37,7 +37,7 @@ Measures suppoted
       - 0.97〜1.05 秒 [seconds]
       - 11.64〜12.60 秒 [seconds]
 
-.. _section-measures-vibration:
+.. _section-measureparameters-vibration:
 
 振動計 [Vibration meastures]
 =============================
@@ -65,7 +65,7 @@ Measures suppoted
       - 0.94〜1.02 秒 [seconds]
       - 11.28〜12.24 秒 [seconds]
 
-.. _section-measures-weather:
+.. _section-measureparameters-weather:
 
 気象計 [Weather measures]
 =========================
