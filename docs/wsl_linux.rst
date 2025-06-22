@@ -13,9 +13,11 @@ Platform Dependencies
 
 * Ubuntu : Tested for ``24.04``. Please follow `Install Ubuntu on WSL2 - Ubuntu on WSL documentation <https://documentation.ubuntu.com/wsl/latest/howto/install-ubuntu-wsl2/>`_.
 
-Install the dependencies via ``wsl``.
+| 依存物のインストールには ``wsl`` を使います。
+| Install the dependencies via ``wsl``.
 
-Open PowerShell terminal as administrator and run:
+| 管理者権限でPowerShellターミナルを開いて、以下を実行します:
+| Open PowerShell terminal as administrator and run:
 
 .. code-block:: powershell
 
@@ -28,7 +30,8 @@ Open PowerShell terminal as administrator and run:
 Dependencies
 ============
 
-omoikane_fw requires a Rust compiler.
+| omoikane_fwはRustコンパイラを必要とします。
+| omoikane_fw requires a Rust compiler.
 
 Requirements for omoikane_fw
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -50,9 +53,11 @@ Installing for Linux on WSL
 
 Tested for **Windows 11 Pro 24H2** and **Ubuntu 24.04 on WSL2**.
 
-Open Ubuntu-24.04 terminal and run:
+| Ubuntu-24.04 ターミナルを開き、以下を実行します:
+| Open Ubuntu-24.04 terminal and run:
 
-Install the dependencies via ``apt``.
+| 依存物のインストールには ``apt`` を使います。
+| Install the dependencies via ``apt``.
 
 .. code-block:: bash
 
@@ -63,7 +68,6 @@ Install the dependencies via ``apt``.
 
     # Rust compiler
     $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    $ rustup-init
     $ cat ~/.bashrc
     ....    ....
     . "$HOME/.cargo/env"
@@ -88,7 +92,8 @@ Install the dependencies via ``apt``.
 
 .. warning::
 
-    Be careful not to make mis-type "``... >> ...``" as "``... > ...``".  If you do, the existing contents of the target files will be deleted.
+    | "``... >> ...``" を "``... > ...``" とミスタイプしないように注意してください。このミスタイプをすると、変更対象ファイルの既存の内容が削除されてしまいます。
+    | Be careful not to make mis-type "``... >> ...``" as "``... > ...``".  If you do, the existing contents of the target files will be deleted.
 
 Jump to :ref:`Build Instructions <section-wsllinux-build>` for the next step.
 
@@ -97,7 +102,8 @@ Jump to :ref:`Build Instructions <section-wsllinux-build>` for the next step.
 Build Instructions
 ==================
 
-Open Ubuntu-24.04 terminal and run:
+| Ubuntu-24.04 ターミナルを開いて、以下を実行します:
+| Open Ubuntu-24.04 terminal and run:
 
 .. code-block:: bash
 
@@ -114,7 +120,8 @@ Open Ubuntu-24.04 terminal and run:
 Run Instructions
 ================
 
-Open Ubuntu-24.04 terminal and run:
+| Ubuntu-24.04 ターミナルを開いて、以下を実行します:
+| Open Ubuntu-24.04 terminal and run:
 
 .. code-block:: bash
 
@@ -141,9 +148,11 @@ Open Ubuntu-24.04 terminal and run:
 Build Instructions for using Visual Studio Code
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Open Visual Studio Code in Windows side:
+1. | Windows側でVisual Studio Codeを開き、以下の操作を行います:
+   | Open Visual Studio Code in Windows side and run:
 
-- Install ``WSL`` extension.
+- | 拡張機能 ``WSL`` をインストールします。
+  | Install ``WSL`` extension.
 
 
 .. image:: ./img/wsl_vscode_extensions_install_1.png
@@ -151,7 +160,8 @@ Build Instructions for using Visual Studio Code
     :align: center
 
 
-- Install ``rust-analyzer`` and ``CodeLLDB`` extensions.
+- | 拡張機能 ``rust-analyzer`` と ``CodeLLDB`` をインストールします。
+  | Install ``rust-analyzer`` and ``CodeLLDB`` extensions.
 
 
 .. image:: ./img/wsl_vscode_extensions_install_2.png
@@ -159,7 +169,8 @@ Build Instructions for using Visual Studio Code
     :align: center
 
 
-2. Open Ubuntu-24.04 terminal and run:
+2. | Ubuntu-24.04 ターミナルを開いて、以下を実行します:
+   | Open Ubuntu-24.04 terminal and run:
 
 .. code-block:: bash
 
@@ -178,9 +189,11 @@ Build Instructions for using Visual Studio Code
     # open Visual Studio Code
     $ code .
 
-1. In Visual Studio Code opened:
+3. | 開いたVisual Studio Code内で以下の操作を行います:
+   | In Visual Studio Code opened:
 
-- Install ``rust-analyzer`` and ``CodeLLDB`` extensions in Ubuntu 24.04 on WSL.
+- | 拡張機能 ``rust-analyzer`` と ``CodeLLDB`` をUbuntu 24.04 on WSLへインストールします。
+  | Install ``rust-analyzer`` and ``CodeLLDB`` extensions in Ubuntu 24.04 on WSL.
 
 
 .. image:: ./img/wsl_vscode_extensions_install_3.png
@@ -188,7 +201,8 @@ Build Instructions for using Visual Studio Code
     :align: center
 
 
-- Execute ``[Terminal]`` > ``[Run Build Task...]`` menu, then select ``[rust: cargo build]`` from the menus displayed in Command Palette.
+- | メニュー ``[ターミナル]`` > ``[ビルド タスクの実行...]`` を実行し、コマンドパレットに表示されたメニューから ``[rust: cargo build]`` を選択します。
+  | Execute ``[Terminal]`` > ``[Run Build Task...]`` menu, then select ``[rust: cargo build]`` from the menus displayed in Command Palette.
 
 
 .. image:: ./img/wsl_vscode_rust_build_menu.png
@@ -205,9 +219,11 @@ Tools required
 
 * `usbipd-win <https://github.com/dorssel/usbipd-win>`_ : Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2.
 
-Install the tools via ``winget``.
+| ツールのインストールには ``winget`` を使います。
+| Install the tools via ``winget``.
 
-Open PowerShell terminal as administrator and run:
+| 管理者権限でPowerShellターミナルを開いて、以下を実行します。
+| Open PowerShell terminal as administrator and run:
 
 .. code-block:: powershell
 
@@ -218,7 +234,8 @@ Open PowerShell terminal as administrator and run:
 Running for using Visual Studio Code
 ------------------------------------
 
-1. Open PowerShell terminal as administrator and run:
+1. | 管理者権限でPowerShellターミナルを開いて、以下を実行します:
+   | Open PowerShell terminal as administrator and run:
 
 .. code-block:: powershell
 
@@ -236,7 +253,8 @@ Running for using Visual Studio Code
 
     # With "--busid <busid>", specify the ID for the USB-serial adapter connected to target measure-device
 
-2. Open Ubuntu 24.04 terminal and run:
+2. | Ubutnu-24.04 ターミナルを開いて、以下を実行します:
+   | Open Ubuntu 24.04 terminal and run:
 
 .. code-block:: bash
 
@@ -253,9 +271,11 @@ Running for using Visual Studio Code
     # open Visual Studio Code
     $ code .
 
-3. In Visual Studio Code opened:
+3. | 開いたVisual Studio Code内で以下の操作を行います:
+   | In Visual Studio Code opened:
 
-- Install ``direnv`` extension.
+- | 拡張機能 ``direnv`` をインストールします。
+  | Install ``direnv`` extension.
 
 
 .. image:: ./img/wsl_vscode_extensions_install_4.png
@@ -265,9 +285,11 @@ Running for using Visual Studio Code
 
 .. warning::
 
-    There are other extensions with the same name. Please find the ``direnv`` with the above icon and author.
+    | 同名の拡張機能が他にもあります。アイコンと作者が上のようになっている ``direnv`` を見つけてください。
+    | There are other extensions with the same name. Please find the ``direnv`` with the above icon and author.
 
-4. In Visual Studio Code:
+4. | Visual Studio Code内で以下の操作を行います:
+   | In Visual Studio Code:
 
 .. raw:: html
 
@@ -275,7 +297,8 @@ Running for using Visual Studio Code
 
 .. role:: green
 
-- Open ``[Run and Debug]`` panel, and select ``[Debug executable 'omoikane_fw' | Ubuntu]`` from the ``[RUN AND DEBUG]`` menus.
+- | ``[実行とデバッグ]`` パネルを開いて、 ``[実行とデバッグ]`` メニューから ``[Debug executable 'omoikane_fw' | Ubuntu]`` を選択します。
+  | Open ``[Run and Debug]`` panel, and select ``[Debug executable 'omoikane_fw' | Ubuntu]`` from the ``[RUN AND DEBUG]`` menus.
 
 
 .. image:: ./img/wsl_vscode_rundebug_menu_select.png
@@ -284,9 +307,11 @@ Running for using Visual Studio Code
 
 
 
-- Push [:green:`▷`] button in ``[Run and Debug]`` panel (or execute ``[Run]`` > ``[Start Debugging]`` menu).
+- | ``[実行とデバッグ]`` バネル内の [:green:`▷`] ボタンを押します (または、``[実行]`` > ``[デバッグの開始]`` メニューを実行します)。
+  | Push [:green:`▷`] button in ``[Run and Debug]`` panel (or execute ``[Run]`` > ``[Start Debugging]`` menu).
 
-- Push ``[Allow]`` button if the pop-up dialog below is displayed.
+- | 下のようなポップアップダイアログが表示されたら、 ``[Allow]`` ボタンを押してください。
+  | Push ``[Allow]`` button if the pop-up dialog below is displayed.
 
 
 .. image:: ./img/wsl_vscode_direnv_envrc_changed.png
@@ -294,11 +319,14 @@ Running for using Visual Studio Code
     :align: center
 
 
-- Push [:green:`▷`] button again, if the program is not yet running.
+- | プログラムがまだ実行状態でなければ、再度 [:green:`▷`] ボタンを押してください。
+  | Push [:green:`▷`] button again, if the program is not yet running.
 
-5. Open PowerShell terminal as administrator and run:
+5. | 管理者権限でPowerShellターミナルを開いて、以下を実行します。
+   | Open PowerShell terminal as administrator and run:
 
-- If you do not use the USB-serial adapter anymore on Ubuntu-24.04 side after stopping the program, run:
+- | プログラムの停止後Ubuntu-24.04側でUSB-シリアル・アダプタをもう使わないなら、以下を実行します。
+  | If you do not use the USB-serial adapter anymore on Ubuntu-24.04 side after stopping the program, run:
 
 .. code-block:: powershell
 

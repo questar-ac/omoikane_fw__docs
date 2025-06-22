@@ -9,11 +9,14 @@ Setup USB-serial adapters
 Linux
 =====
 
-Drivers for USB-serial adapters from most vendors are built into the kernel.
+| ほとんどのベンダのUSB-シリアル・アダプタ用ドライバがカーネルに組み込まれています。
+| Drivers for USB-serial adapters from most vendors are built into the kernel.
 
-Device files for USB-serial adapters will be ``/dev/ttyUSB*`` or ``/dev/ttyACM*``.
+| USB-シリアル・アダプタに対するデバイスファイルは ``/dev/ttyUSB*`` または ``/dev/ttyACM*`` となります.
+| Device files for USB-serial adapters will be ``/dev/ttyUSB*`` or ``/dev/ttyACM*``.
 
-To see information about all USB devices, use ``lsusb`` command. If you want to see more information about all USB-serial adpaters, use "``ls -l /dev/serial/by-id``" and "``ls -l /dev/serial/by-path``" commands.
+| すべてのUSBデバイスの情報は ``lsusb`` コマンドを使って確認できます。USB-シリアル・アダプタの詳細情報を確認したい場合は、コマンド "``ls -l /dev/serial/by-id``" と "``ls -l /dev/serial/by-path``" を使ってください。
+| To see information about all USB devices, use ``lsusb`` command. If you want to see more information about all USB-serial adpaters, use "``ls -l /dev/serial/by-id``" and "``ls -l /dev/serial/by-path``" commands.
 
 .. code-block:: bash
 
@@ -33,7 +36,8 @@ To see information about all USB devices, use ``lsusb`` command. If you want to 
 macOS
 =====
 
-For macOS Mojave and later, kernel drivers for USB-serial adapters from the following vendors are built in the system.
+| macOS Mojave以降には、以下のベンダのUSB-シリアル・アダプタ用カーネルドライバがシステムに組み込まれています。
+| For macOS Mojave and later, kernel drivers for USB-serial adapters from the following vendors are built in the system.
 
 - `FTDI <https://ftdichip.com>`_
 - `WCH <https://www.wch-ic.com/>`_
@@ -41,18 +45,22 @@ For macOS Mojave and later, kernel drivers for USB-serial adapters from the foll
 - `Silicon Labs <https://www.silabs.com>`_
 - CDC standard-compliant devices
 
-You can check this information by using "``ls -l /System/Library/DriverExtensions/``" command.
+| 本情報は以下のコマンド "``ls -l /System/Library/DriverExtensions/``" によって確認することができます。
+| You can check this information by using "``ls -l /System/Library/DriverExtensions/``" command.
 
-Device files for vender specific USB-serial adapters will be ``/dev/tty.usbserial-*``. For CDC standard-compliant devices, they will be ``/dev/usbmodem*``.
+| ベンダ固有のUSB-シリアル・アダプタに対するデバイスファイルは ``/dev/tty.usbserial-*`` 、CDC規格準拠の場合は ``/dev/usbmodem*`` となります.
+| Device files for vender specific USB-serial adapters will be ``/dev/tty.usbserial-*``. For CDC standard-compliant devices, they will be ``/dev/usbmodem*``.
 
 .. _section-usbserial-windows:
 
 Windows
 =======
 
-Depending on the version of Windows, some drivers for USB-serial adapters are installed automatically and others are not.
+| Widowsでは、USB-シリアル・アダプタのドライバが自動的にインストールされるものとそうでないものがあり、これらはWindowsのバージョンによって異なります。
+| Depending on the version of Windows, some drivers for USB-serial adapters are installed automatically and others are not.
 
-We checked for **Windows 11 24H2** and the results were as follows:
+| **Windows 11 24H2** で確認したところ、下記のような結果になりました:
+| We checked for **Windows 11 24H2** and the results were as follows:
 
 1. FTDI FT232X
 
@@ -95,7 +103,8 @@ We checked for **Windows 11 24H2** and the results were as follows:
     :align: center
 
 
+| 4 と 5 のケースでは、ベンダ供給ドライバをインストールしないとWindowsでUSB-シリアル・アダプタを使用することはできません。
+| In the case 4 and 5, it is necessary to install a vendor-supplied driver to use the USB-serial adapters on Windows.
 
-In the case 4 and 5, it is necessary to install a vendor-supplied driver to use the USB-serial adapters on Windows.
-
-You can use `Zadig <https://zadig.akeo.ie>`_ to install a vendor-supplied driver for the USB-serial adapters that Windows does not make available automatically.
+| `Zadig <https://zadig.akeo.ie>`_ を利用すると、USB-シリアル・アダプタのベンダ供給ドライバをインストールすることができます。 
+| You can use `Zadig <https://zadig.akeo.ie>`_ to install a vendor-supplied driver for the USB-serial adapters that Windows does not make available automatically.

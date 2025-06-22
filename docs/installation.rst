@@ -4,26 +4,32 @@
 Installation
 ============
 
-About setup of USB-serial adapters, see :ref:`Setup USB-serial adapters <chapter-usbserial>`
+| USB-シリアル・アダプタの設定については :ref:`Setup USB-serial adapters <chapter-usbserial>` を参照してください。
+| About setup of USB-serial adapters, see :ref:`Setup USB-serial adapters <chapter-usbserial>`
 
-If you want to run omoikane_fw on Windows, see :ref:`Running on WSL <chapter-windows>`
+| omoikane_fwをWindows上で実行したい場合は :ref:`Running on WSL <chapter-windows>` を参照してください。
+| If you want to run omoikane_fw on Windows, see :ref:`Running on WSL <chapter-windows>`
 
 .. _section-get-source:
 
 Source code
 ===========
 
-The source code can be viewed from this `GitHub repository <https://github.com/questar-ac/omoikane_fw>`_.
+| ソースコードはこちらの `GitHub repository <https://github.com/questar-ac/omoikane_fw>`_ で閲覧できます。
+| The source code can be viewed from this `GitHub repository <https://github.com/questar-ac/omoikane_fw>`_.
 
-Cloning the repository:
+| リポジトリのクローン:
+| Cloning the repository:
 
 .. code-block:: bash
 
     git clone https://github.com/questar-ac/omoikane_fw.git
 
-This is a private repository, so you will need your own GitHub account with access permissions as a collaborator. You also need to create a personal access token on your account to access to a private repository by ``git`` command. See this `Github Docs <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic>`_ on creating a personal access token.
+| これはプラベートリポジトリなので、あなた自身のGitHubアカウントとコラボレータとしてのアクセス権限が必要です。また、``git`` コマンドによってプライベートリポジトリへアクセスするには、あなたのアカウント上でパーソナルアクセストークンを作成する必要もあります。パーソナルアクセストークンの作成方法についてはこちらの  `Github Docs <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic>`_ を参照してください。
+| This is a private repository, so you will need your own GitHub account with access permissions as a collaborator. You also need to create a personal access token on your account to access to a private repository by ``git`` command. See this `Github Docs <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic>`_ on creating a personal access token.
 
-To clone the private repository, you should use this command:
+| プライベートリポジトリをクローンするには、以下のコマンドを使います:
+| To clone the private repository, you should use this command:
 
 .. code-block:: bash
 
@@ -34,7 +40,8 @@ To clone the private repository, you should use this command:
 Dependencies
 ============
 
-omoikane_fw requires a Rust compiler.
+| omoikane_fwはRustコンパイラを必要とします。
+| omoikane_fw requires a Rust compiler.
 
 Requirements for omoikane_fw
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +65,8 @@ Installing for Linux
 
 Tested for **Ubuntu 24.04**.
 
-Install the dependencies via ``apt``.
+| 依存物のインストールには ``apt`` を使います。
+| Install the dependencies via ``apt``.
 
 .. code-block:: bash
 
@@ -73,7 +81,6 @@ Install the dependencies via ``apt``.
 
     # Rust compiler
     $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    $ rustup-init
     $ cat ~/.bashrc
     ....    ....
     . "$HOME/.cargo/env"
@@ -98,7 +105,8 @@ Install the dependencies via ``apt``.
 
 .. warning::
 
-    Be careful not to make mis-type "``... >> ...``" as "``... > ...``"  .  If you do, the existing contents of the target files will be deleted.
+    | "``... >> ...``" を "``... > ...``" とミスタイプしないように注意してください。このミスタイプをすると、変更対象ファイルの既存の内容が削除されてしまいます。
+    | Be careful not to make mis-type "``... >> ...``" as "``... > ...``".  If you do, the existing contents of the target files will be deleted.
 
 Jump to :ref:`Build Instructions <section-build>` for the next step.
 
@@ -109,7 +117,8 @@ Installing for macOS
 
 Tested for **macOS Ventura**.
 
-Install the dependencies via ``brew``.
+| 依存物のインストールには ``brew`` を使います。
+| Install the dependencies via ``brew``.
 
 .. code-block:: bash
 
@@ -237,7 +246,8 @@ Build Instructions for using Visual Studio Code
 Building for using Visual Studio Code
 -------------------------------------
 
-1. Open Terminal and run:
+1. | ターミナルを開いて、以下を実行します:
+   | Open Terminal and run:
 
 .. code-block:: bash
 
@@ -254,9 +264,11 @@ Building for using Visual Studio Code
     # open Visual Studio Code
     $ code .
 
-1. In Visual Studio Code:
+2. | Visual Studio Code内で以下の操作を行います:
+   | In Visual Studio Code:
 
-- Install ``rust-analyzer`` and ``CodeLLDB`` extensions.
+- | 拡張機能 ``rust-analyzer`` と ``CodeLLDB`` をインストールします。
+  | Install ``rust-analyzer`` and ``CodeLLDB`` extensions.
 
 
 .. image:: ./img/ubuntu_vscode_extensions_install_1.png
@@ -264,7 +276,8 @@ Building for using Visual Studio Code
     :align: center
 
 
-- Execute ``[Terminal]`` > ``[Run Build Task...]`` menu, then select ``[rust: cargo build]`` from the menus displayed in Command Palette.
+-  | メニュー ``[ターミナル]`` > ``[ビルド タスクの実行...]`` を実行し、コマンドパレットに表示されたメニューから ``[rust: cargo build]`` を選択します。
+   | Execute ``[Terminal]`` > ``[Run Build Task...]`` menu, then select ``[rust: cargo build]`` from the menus displayed in Command Palette.
 
 
 .. image:: ./img/ubuntu_vscode_rust_build_menu.png
@@ -276,7 +289,8 @@ Building for using Visual Studio Code
 Run Instructions for using Visual Studio Code
 ---------------------------------------------
 
-1. Open Terminal and run:
+1. | ターミナルを開いて、以下を実行します:
+   | Open Terminal and run:
 
 .. code-block:: bash
 
@@ -289,9 +303,11 @@ Run Instructions for using Visual Studio Code
     # open Visual Studio Code
     $ code .
 
-1. In Visual Studio Code opened:
+2. | 開いたVisual Studio Code内で以下の操作を行います:
+   | In Visual Studio Code opened:
 
-- Install ``direnv`` extension.
+- | 拡張機能 ``direnv`` をインストールします。
+  | Install ``direnv`` extension.
 
 
 .. image:: ./img/ubuntu_vscode_extensions_install_2.png
@@ -300,9 +316,11 @@ Run Instructions for using Visual Studio Code
 
 .. warning::
 
-    There are other extensions with the same name. Please find the ``direnv`` with the above icon and author.
+    | 同名の拡張機能が他にもあります。アイコンと作者が上のようになっている ``direnv`` を見つけてください。
+    | There are other extensions with the same name. Please find the ``direnv`` with the above icon and author.
 
-3. In Visual Studio Code:
+3. | Visual Studio Code内で以下の操作を行います:
+   | In Visual Studio Code:
 
 .. raw:: html
 
@@ -310,7 +328,8 @@ Run Instructions for using Visual Studio Code
 
 .. role:: green
 
-- Open ``[Run and Debug]`` panel, and select ``[Debug executable 'omoikane_fw' | Ubuntu]`` from the ``[RUN AND DEBUG]`` menus.
+- | ``[実行とデバック]`` パネルを開いて、 ``[実行とデバック]`` メニューから ``[Debug executable 'omoikane_fw' | Ubuntu]`` を選択します。
+  | Open ``[Run and Debug]`` panel, and select ``[Debug executable 'omoikane_fw' | Ubuntu]`` from the ``[RUN AND DEBUG]`` menus.
 
 
 .. image:: ./img/ubuntu_vscode_rundebug_menu_select.png
@@ -320,12 +339,15 @@ Run Instructions for using Visual Studio Code
 
 .. NOTE::
 
-    Please select ``[Debug executable 'omoikane_fw' | macOS]`` from the ``[RUN AND DEBUG]`` menus if you are using Visual Studio Code on macOS.
+    | macOS上でVisual Studio Codeを使っている場合は、 ``[実行とデバック]`` メニューから ``[Debug executable 'omoikane_fw' | macOS]`` を選択してください。
+    | Please select ``[Debug executable 'omoikane_fw' | macOS]`` from the ``[RUN AND DEBUG]`` menus if you are using Visual Studio Code on macOS.
 
 
-- Push [:green:`▷`] button in ``[Run and Debug]`` panel (or execute ``[Run]`` > ``[Start Debugging]`` menu).
+- | ``[実行とデバッグ]`` バネル内の [:green:`▷`] ボタンを押します (または、``[実行]`` > ``[デバッグの開始]`` メニューを実行します)。
+  | Push [:green:`▷`] button in ``[Run and Debug]`` panel (or execute ``[Run]`` > ``[Start Debugging]`` menu).
 
-- Push ``[Allow]`` button if the pop-up dialog below is displayed.
+- | 下のようなポップアップダイアログが表示されたら、 ``[Allow]`` ボタンを押してください。
+  | Push ``[Allow]`` button if the pop-up dialog below is displayed.
 
 
 .. image:: ./img/ubuntu_vscode_direnv_envrc_changed.png
@@ -333,4 +355,5 @@ Run Instructions for using Visual Studio Code
     :align: center
 
 
-- Push [:green:`▷`] button again, if the program is not yet running.
+- | プログラムがまだ実行状態でなければ、再度 [:green:`▷`] ボタンを押してください。
+  | Push [:green:`▷`] button again, if the program is not yet running.
