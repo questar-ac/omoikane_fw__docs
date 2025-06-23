@@ -79,10 +79,10 @@ Tested for **Windows 11 Pro 24H2** and **Ubuntu 24.04 on WSL2**.
 
     # Redis
     $ sudo apt install -y redis-server
-    $ sudo ehco "supervised systemd" >> /etc/redis/redis.conf
+    $ sudo sh -c 'echo "supervised systemd" >> /etc/redis/redis.conf'
     $ cd /tmp
     $ git clone https://<your_personal_access_token>@github.com/questar-ac/omoikane_fw.git
-    $ sudo cat /tmp/omoikane_fw/tools_config/soshinki_redis.conf >> /etc/redis/redis.conf
+    $ sudo sh -c 'cat /tmp/omoikane_fw/tools_config/soshinki_redis.conf >> /etc/redis/redis.conf'
     $ sudo systemctl restart redis
 
     # direnv
