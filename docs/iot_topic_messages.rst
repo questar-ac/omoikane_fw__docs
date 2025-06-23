@@ -474,7 +474,7 @@ noise4/data_chunk
 ^^^^^^^^^^^^^^^^
 
 - | アコー [ACO] TYPE3666 内蔵騒音計
-  | Noise measure embedded in unit
+  | Noise measure built-in unit
 
 *Destination IoT Topic*
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -838,7 +838,7 @@ vibration4/data_chunk
 ^^^^^^^^^^^^^^^^^
 
 - | アコー [ACO] TYPE3666 内蔵振動計
-  | Vibration measure embedded in unit
+  | Vibration measure built-in unit
 
 *Destination IoT Topic*
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -1437,7 +1437,7 @@ noise4/data_sum
 ^^^^^^^^^^^^^^^^^
 
 - | アコー [ACO] TYPE3666 内蔵騒音計
-  | Noise measure embedded in unit
+  | Noise measure built-in unit
 
 *Destination IoT Topic*
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -1737,7 +1737,7 @@ vibration4/data_sum
 ^^^^^^^^^^^^^^^^^
 
 - | アコー [ACO] TYPE3666 内蔵振動計
-  | Vibration measure embedded in unit
+  | Vibration measure built-in unit
 
 *Destination IoT Topic*
 ^^^^^^^^^^^^^^^^^^^^^^^

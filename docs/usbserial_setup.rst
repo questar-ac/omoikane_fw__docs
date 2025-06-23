@@ -106,5 +106,5 @@ Windows
 | 4 と 5 のケースでは、ベンダ供給ドライバをインストールしないとWindowsでUSB-シリアル・アダプタを使用することはできません。
 | In the case 4 and 5, it is necessary to install a vendor-supplied driver to use the USB-serial adapters on Windows.
 
-| `Zadig <https://zadig.akeo.ie>`_ を利用すると、USB-シリアル・アダプタのベンダ供給ドライバをインストールすることができます。 
+| Windowsで自動認識されないUSB-シリアル・アダプタに対するベンダ供給ドライバをインストールにするには、`Zadig <https://zadig.akeo.ie>`_ を利用することをお勧めします。 
 | You can use `Zadig <https://zadig.akeo.ie>`_ to install a vendor-supplied driver for the USB-serial adapters that Windows does not make available automatically.

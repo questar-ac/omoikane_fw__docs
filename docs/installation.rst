@@ -65,7 +65,7 @@ Installing for Linux
 
 Tested for **Ubuntu 24.04**.
 
-| 依存物のインストールには ``apt`` を使います。
+| 依存物のインストールには ``apt`` を用います。
 | Install the dependencies via ``apt``.
 
 .. code-block:: bash
@@ -117,7 +117,7 @@ Installing for macOS
 
 Tested for **macOS Ventura**.
 
-| 依存物のインストールには ``brew`` を使います。
+| 依存物のインストールには ``brew`` を用います。
 | Install the dependencies via ``brew``.
 
 .. code-block:: bash
@@ -191,6 +191,10 @@ Running for Linux
     $ cp -R tools_config/.aws/iot ~/.aws
 
     # check if the USB-serial adapter is available on the system
+    $ lsusb
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
     $ ls -l /dev/ttyUSB*
     crw-rw---- 1 root dialout 188, 0 Jun 20 09:03 /dev/ttyUSB0D
     # add your user-id to dialout group

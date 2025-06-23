@@ -33,7 +33,7 @@ Parameters for measures
     * - アコー [ACO]
       - TYPE3666 内蔵騒音計
         
-        Noise measure embedded in unit
+        Noise measure built-in unit
       - 0.97〜1.05 秒 [seconds]
       - 11.64〜12.60 秒 [seconds]
 
@@ -61,7 +61,7 @@ Parameters for measures
     * - アコー [ACO]
       - TYPE3666 内蔵振動計
         
-        Vibration measure embedded in unit
+        Vibration measure built-in unit
       - 0.94〜1.02 秒 [seconds]
       - 11.28〜12.24 秒 [seconds]
 

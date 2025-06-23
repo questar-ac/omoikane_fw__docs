@@ -13,7 +13,7 @@ Platform Dependencies
 
 * Ubuntu : Tested for ``24.04``. Please follow `Install Ubuntu on WSL2 - Ubuntu on WSL documentation <https://documentation.ubuntu.com/wsl/latest/howto/install-ubuntu-wsl2/>`_.
 
-| 依存物のインストールには ``wsl`` を使います。
+| 依存物のインストールには ``wsl`` を用います。
 | Install the dependencies via ``wsl``.
 
 | 管理者権限でPowerShellターミナルを開いて、以下を実行します:
@@ -56,7 +56,7 @@ Tested for **Windows 11 Pro 24H2** and **Ubuntu 24.04 on WSL2**.
 | Ubuntu-24.04 ターミナルを開き、以下を実行します:
 | Open Ubuntu-24.04 terminal and run:
 
-| 依存物のインストールには ``apt`` を使います。
+| 依存物のインストールには ``apt`` を用います。
 | Install the dependencies via ``apt``.
 
 .. code-block:: bash
@@ -260,9 +260,9 @@ Running for using Visual Studio Code
 
     # check if the USB-serial adapter is accessible on Ubuntu-24.04 side
     $ lsusb
-    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
-    Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
     Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    Bus 001 Device 002: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
+    Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
     $ ls /dev/ttyUSB*
     /dev/ttyUSB0
 
@@ -322,10 +322,10 @@ Running for using Visual Studio Code
 - | プログラムがまだ実行状態でなければ、再度 [:green:`▷`] ボタンを押してください。
   | Push [:green:`▷`] button again, if the program is not yet running.
 
-5. | 管理者権限でPowerShellターミナルを開いて、以下を実行します。
+5. | 管理者権限でPowerShellターミナルを開いて、以下を実行します:
    | Open PowerShell terminal as administrator and run:
 
-- | プログラムの停止後Ubuntu-24.04側でUSB-シリアル・アダプタをもう使わないなら、以下を実行します。
+- | プログラムの停止後Ubuntu-24.04側でUSB-シリアル・アダプタをもう使わないなら、以下を実行します:
   | If you do not use the USB-serial adapter anymore on Ubuntu-24.04 side after stopping the program, run:
 
 .. code-block:: powershell
