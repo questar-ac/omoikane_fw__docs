@@ -43,13 +43,13 @@ macOS
 - `WCH <https://www.wch-ic.com/>`_
 - `Prolific Technology <https://www.prolific.com.tw>`_
 - `Silicon Labs <https://www.silabs.com>`_
-- CDC standard-compliant devices
+- `CDC ACM <https://www.usb.org/document-library/class-definitions-communication-devices-12>`_ standard-compliant devices
 
 | 本情報はコマンド "``ls -l /System/Library/DriverExtensions/``" によって確認することができます。
 | You can check this information by using "``ls -l /System/Library/DriverExtensions/``" command.
 
-| ベンダ固有のUSB-シリアル・アダプタに対するデバイスファイルは ``/dev/tty.usbserial-*`` 、CDC規格準拠の場合は ``/dev/usbmodem*`` となります.
-| Device files for vender specific USB-serial adapters will be ``/dev/tty.usbserial-*``. For CDC standard-compliant devices, they will be ``/dev/usbmodem*``.
+| ベンダ固有のUSB-シリアル・アダプタに対するデバイスファイルは ``/dev/tty.usbserial-*`` 、CDC ACM規格準拠デバイスの場合は ``/dev/tty.usbmodem*`` となります.
+| Device files for vender specific USB-serial adapters will be ``/dev/tty.usbserial-*``. For CDC ACM standard-compliant devices, they will be ``/dev/tty.usbmodem*``.
 
 .. _section-usbserial-windows:
 
@@ -62,7 +62,7 @@ Windows
 | **Windows 11 24H2** で確認したところ、下記のような結果になりました:
 | We checked for **Windows 11 24H2** and the results were as follows:
 
-1. FTDI FT232X
+1. FTDI FT232x
 
 
 .. image:: ./img/windows_devicemanager_usbserial_1.png
@@ -70,7 +70,7 @@ Windows
     :align: center
 
 
-2. WCH CH34X
+2. WCH CH34x
 
 
 .. image:: ./img/windows_devicemanager_usbserial_2.png
@@ -95,7 +95,7 @@ Windows
     :align: center
 
 
-5. Silicon Labs CP2102N
+5. Silicon Labs CP210x
 
 
 .. image:: ./img/windows_devicemanager_usbserial_5.png

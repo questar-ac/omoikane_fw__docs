@@ -1985,7 +1985,7 @@ aws/questar/soshinki/vibration/data_sum
 
     {
       "device_id": "SK000010",
-      "device_data_type": "vibration1/sum",
+      "device_data_type": "vibration2/sum",
       "data_version": "20250502",
       "data_no": 1,
       "data_key": "dod",
