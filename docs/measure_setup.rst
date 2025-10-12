@@ -33,6 +33,11 @@ Settings for measure devices
       - Vibration
       - RS-232C
       - 19200bps 8-N-1
+    * - リオン [RION]
+      - VM-57
+      - Vibration
+      - USB
+      - 19200bps 8-N-1
     * - アコー [ACO]
       - TYPE3666 noise built-in unit
       - Noise
