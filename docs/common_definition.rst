@@ -28,11 +28,11 @@ Device Type
     * - noise4
       - アコー [ACO] TYPE3666 内蔵騒音計
         
-        Noise measure embedded in unit
+        Noise measure built-in unit
     * - vibration4
       - アコー [ACO] TYPE3666 内蔵振動計
         
-        Vibration measure embedded in unit
+        Vibration measure built-in unit
     * - weather1
       - misol Weather Station WH24C
 

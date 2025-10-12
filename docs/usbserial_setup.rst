@@ -45,7 +45,7 @@ macOS
 - `Silicon Labs <https://www.silabs.com>`_
 - CDC standard-compliant devices
 
-| 本情報は以下のコマンド "``ls -l /System/Library/DriverExtensions/``" によって確認することができます。
+| 本情報はコマンド "``ls -l /System/Library/DriverExtensions/``" によって確認することができます。
 | You can check this information by using "``ls -l /System/Library/DriverExtensions/``" command.
 
 | ベンダ固有のUSB-シリアル・アダプタに対するデバイスファイルは ``/dev/tty.usbserial-*`` 、CDC規格準拠の場合は ``/dev/usbmodem*`` となります.
