@@ -831,6 +831,241 @@ aws/questar/soshinki/vibration/data_chunk
         
         L95 vibration value within the minimum measurement unit time
 
+vibration2/data_chunk
+=====================
+
+*Target Measures*
+^^^^^^^^^^^^^^^^^
+
+- リオン [RION] VM-57
+
+*Destination IoT Topic*
+^^^^^^^^^^^^^^^^^^^^^^^
+
+aws/questar/soshinki/vibration/data_chunk
+
+*Example*
+^^^^^^^^^
+
+.. code-block:: json
+
+    {
+      "device_id": "SK000010",
+      "device_data_type": "vibration2/chunk",
+      "data_version": "20250502",
+      "data_no": 1,
+      "data_key": "dod",
+      "data_aux": [
+        "RION VM-57"
+      ],
+      "data_chunk": [
+        {
+          "timestamp": 1746137464509,
+          "Lv": 68.5,
+          "Lvmax": 72.6,
+          "Lvmin": 65.7,
+          "L5": 72.5,
+          "L10": 72.5,
+          "L50": 71.1,
+          "L90": 66.8,
+          "L95": 66.1
+        },
+        {
+          "timestamp": 1746137465512,
+          "Lv": 69.7,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.2,
+          "L10": 73.9,
+          "L50": 71.7,
+          "L90": 68.5,
+          "L95": 66.8
+        },
+        {
+          "timestamp": 1746137466514,
+          "Lv": 74.3,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 73.9,
+          "L10": 73.6,
+          "L50": 71.1,
+          "L90": 68.8,
+          "L95": 66.8
+        },
+        {
+          "timestamp": 1746137467515,
+          "Lv": 72.1,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.3,
+          "L10": 73.9,
+          "L50": 71.5,
+          "L90": 69.2,
+          "L95": 68.5
+        },
+        {
+          "timestamp": 1746137468517,
+          "Lv": 72.9,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.2,
+          "L10": 73.9,
+          "L50": 71.5,
+          "L90": 69.2,
+          "L95": 68.5
+        },
+        {
+          "timestamp": 1746137469518,
+          "Lv": 72.1,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 74.2,
+          "L10": 73.6,
+          "L50": 71.5,
+          "L90": 69.2,
+          "L95": 68.5
+        },
+        {
+          "timestamp": 1746137470520,
+          "Lv": 67.5,
+          "Lvmax": 74.5,
+          "Lvmin": 65.7,
+          "L5": 73.9,
+          "L10": 73.4,
+          "L50": 71.3,
+          "L90": 68.8,
+          "L95": 68.5
+        },
+        {
+          "timestamp": 1746137471522,
+          "Lv": 61.9,
+          "Lvmax": 74.5,
+          "Lvmin": 62.6,
+          "L5": 73.9,
+          "L10": 73.2,
+          "L50": 70.9,
+          "L90": 66.2,
+          "L95": 65.0
+        },
+        {
+          "timestamp": 1746137472522,
+          "Lv": 55.4,
+          "Lvmax": 74.5,
+          "Lvmin": 56.0,
+          "L5": 73.9,
+          "L10": 73.0,
+          "L50": 70.5,
+          "L90": 61.9,
+          "L95": 58.6
+        },
+        {
+          "timestamp": 1746137473524,
+          "Lv": 49.0,
+          "Lvmax": 74.5,
+          "Lvmin": 49.6,
+          "L5": 73.9,
+          "L10": 72.9,
+          "L50": 70.0,
+          "L90": 56.0,
+          "L95": 52.8
+        }
+      ]
+    }
+
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :widths: 1, 1, 3
+
+    * - Name
+      - Type
+      - Description
+    * - device_id
+      - string
+      - 端末固有のID
+        
+        Unique ID of the terminal which sent this data
+    * - device_data_type
+      - string
+      - :ref:`vibration2 <section-commondefinition-devicetype>`/:ref:`chunk <section-commondefinition-datatype>`
+    * - data_version
+      - string
+      - データ形式のバージョン　データ形式が部分的に変更された場合に本値が更新される
+        
+        Version of data format. This value will be updated when the data format is partially changed.
+    * - data_no
+      - number
+      - データの順序番号　端末起動後計測開始時に 1 から始まり、最小計測単位データの個数分増加していく
+        
+        Sequential number of data. Starts at 1 when measurement starts after the terminal startup, and increases by the number of minimum measurement unit data.
+    * - data_key
+      - string
+      - 計測データ取得に使用された計器固有のコマンド
+        
+        Device-specific commands used to acquire this measurement data
+    * - data_aux
+      - array<string>
+      - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
+        
+        Stores auxiliary information about this data, currently vendor and model names of the target measure.
+    * - data_chunk
+      - array<json-object>
+      - :ref:`最小計測単位 <section-measureparameters-vibration>` の収集計測データが格納される配列
+        
+        Array stores the collected measurement data in the :ref:`minimum measurement unit <section-measureparameters-vibration>`.
+    * - timestamp
+      - number
+      - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
+        
+        Time at which this data entry was acquired. UNIX time in milliseconds (UTC)
+    * - Lv
+      - number
+      - 計測データ取得時の振動最新値
+        
+        Latest vibration value at this data entry was acquired
+    * - Lvmax
+      - number
+      - 最小計測単位時間内での振動最大値
+        
+        Maximum vibration value within the minimum measurement unit time
+    * - Lvmin
+      - number
+      - 最小計測単位時間内での振動最小値
+        
+        Minimum vibration value within the minimum measurement unit time
+    * - L5
+      - number
+      - 最小計測単位時間内での振動L5値
+        
+        L5 vibration value within the minimum measurement unit time
+    * - L10
+      - number
+      - 最小計測単位時間内での振動L10値
+        
+        L10 vibration value within the minimum measurement unit time
+    * - L50
+      - number
+      - 最小計測単位時間内での振動L50値
+        
+        L50 vibration value within the minimum measurement unit time
+    * - L90
+      - number
+      - 最小計測単位時間内での振動L90値
+        
+        L90 vibration value within the minimum measurement unit time
+    * - L95
+      - number
+      - 最小計測単位時間内での振動L95値
+        
+        L95 vibration value within the minimum measurement unit time
+
+.. note ::
+
+    | `vibration2/data_chunk`_ は `vibration1/data_chunk`_ と同一形式
+    | `vibration2/data_chunk`_ has same format as `vibration1/data_chunk`_.
+
 vibration4/data_chunk
 =====================
 
@@ -1729,6 +1964,158 @@ aws/questar/soshinki/vibration/data_sum
       - vibration_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
         
         Time at which the vibration_min value was acquired. UNIX time in milliseconds (UTC)
+
+vibration2/data_sum
+===================
+
+*Target Measures*
+^^^^^^^^^^^^^^^^^
+
+- リオン [RION] VM-57
+
+*Destination IoT Topic*
+^^^^^^^^^^^^^^^^^^^^^^^
+
+aws/questar/soshinki/vibration/data_sum
+
+*Example*
+^^^^^^^^^
+
+.. code-block:: json
+
+    {
+      "device_id": "SK000010",
+      "device_data_type": "vibration1/sum",
+      "data_version": "20250502",
+      "data_no": 1,
+      "data_key": "dod",
+      "data_aux": [
+        "RION VM-57"
+      ],
+      "data_sum": {
+        "timestamp": 1746137473524,
+        "vibration_latest": 49.0,
+        "vibration_average": 66.3,
+        "vibration_l5": 73.9,
+        "vibration_l10": 73.5,
+        "vibration_l50": 71.2,
+        "vibration_l90": 68.65,
+        "vibration_l95": 66.8,
+        "vibration_max": 74.3,
+        "vibration_max_time": 1746137466514,
+        "vibration_min": 49.0,
+        "vibration_min_time": 1746137473524
+      }
+    }
+
+*JOSN Object Items*
+^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :widths: 1, 1, 3
+
+    * - Name
+      - Type
+      - Description
+    * - device_id
+      - string
+      - 端末固有のID
+        
+        Unique ID of the terminal which sent this data
+    * - device_data_type
+      - string
+      - :ref:`vibration2 <section-commondefinition-devicetype>`/:ref:`sum <section-commondefinition-datatype>`
+    * - data_version
+      - string
+      - データ形式のバージョン　データ形式が部分的に変更された場合に本値が更新される
+        
+        Version of data format. This value will be updated when the data format is partially changed.
+    * - data_no
+      - number
+      - データの順序番号　端末起動後計測開始時に 1 から始まり、最小計測単位データの個数分増加していく
+        
+        Sequential number of data. Starts at 1 when measurement starts after the terminal startup, and increases by the number of minimum measurement unit data.
+    * - data_key
+      - string
+      - 計測データ取得に使用された計器固有のコマンド
+        
+        Device-specific commands used to acquire this measurement data
+    * - data_aux
+      - array<string>
+      - データに関する補足情報　現在は計器のメーカーとモデル名が格納される
+        
+        Stores auxiliary information about this data, currently vendor and model names of the target measure.
+    * - data_sum
+      - json-object
+      - :ref:`最小集計単位 <section-measureparameters-vibration>` の計測データが格納される
+        
+        Stores measurement data in the :ref:`minimum aggregate unit <section-measureparameters-vibration>`.
+    * - timestamp
+      - number
+      - 計測データの取得時刻　ミリ秒単位UNIX時刻 (UTC)
+        
+        Time at which this data was acquired. UNIX time in milliseconds (UTC)
+    * - vibration_latest
+      - number
+      - 計測データ取得時の振動最新値
+        
+        Latest vibration value at this data was acquired
+    * - vibration_average
+      - number
+      - 最小集計単位時間内での振動平均値
+        
+        Average vibration value within the minimum aggregate unit time
+    * - vibration_l5
+      - number
+      - 最小集計単位時間内での振動L5値
+        
+        L5 vibration value within the minimum aggregate unit time
+    * - vibration_l10
+      - number
+      - 最小集計単位時間内での振動L10値
+        
+        L10 vibration value within the minimum aggregate unit time
+    * - vibration_l50
+      - number
+      - 最小集計単位時間内での振動L50値
+        
+        L50 vibration value within the minimum aggregate unit time
+    * - vibration_l90
+      - number
+      - 最小集計単位時間内での振動L90値
+        
+        L90 vibration value within the minimum aggregate unit time
+    * - vibration_l95
+      - number
+      - 最小集計単位時間内での振動L95値
+        
+        L95 vibration value within the minimum aggregate unit time
+    * - vibration_max
+      - number
+      - 最小集計単位時間内での振動最大値
+        
+        Maximum vibration value within the minimum aggregate unit time
+    * - vibration_max_time
+      - number
+      - vibration_max 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
+        
+        Time at which the vibration_max value was acquired. UNIX time in milliseconds (UTC)
+    * - vibration_min
+      - number
+      - 最小集計単位時間内での振動最小値
+        
+        Minimum vibration value within the minimum aggregate unit time
+    * - vibration_min_time
+      - number
+      - vibration_min 値の取得時刻　ミリ秒単位UNIX時刻 (UTC)
+        
+        Time at which the vibration_min value was acquired. UNIX time in milliseconds (UTC)
+
+.. note ::
+
+    | `vibration2/data_sum`_ は `vibration1/data_sum`_ と同一形式
+    | `vibration2/data_sum`_ has same format as `vibration1/data_sum`_.
 
 vibration4/data_sum
 ===================

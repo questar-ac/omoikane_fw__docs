@@ -22,9 +22,7 @@ Device Type
     * - vibration1
       - リオン [RION] VM-55
     * - vibration2
-      - 予約 (リオン [RION] VM-55以外の振動計)
-        
-        Reserved (for other vibration than RION VM-55 )
+      - リオン [RION] VM-57
     * - noise4
       - アコー [ACO] TYPE3666 内蔵騒音計
         

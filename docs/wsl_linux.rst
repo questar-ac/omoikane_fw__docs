@@ -139,7 +139,7 @@ Run Instructions
     direnv: loading ~/lib/omoikane_fw/
     direnv: export +SERIAL_PORT_NAMES +SERIAL_PORT_SPEEDS
 
-    # run the omikane_fw program
+    # run the omoikane_fw program
     $ cargo run
 
 
@@ -219,7 +219,7 @@ Tools required
 
 * `usbipd-win <https://github.com/dorssel/usbipd-win>`_ : Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2.
 
-| ツールのインストールには ``winget`` を使います。
+| ツールのインストールには ``winget`` を用います。
 | Install the tools via ``winget``.
 
 | 管理者権限でPowerShellターミナルを開いて、以下を実行します。
