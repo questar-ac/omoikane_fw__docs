@@ -82,7 +82,7 @@ Tested for **Windows 11 Pro 24H2** and **Ubuntu 24.04 on WSL2**.
     $ sudo sh -c 'echo "supervised systemd" >> /etc/redis/redis.conf'
     $ cd /tmp
     $ git clone https://<your_personal_access_token>@github.com/questar-ac/omoikane_fw.git
-    $ sudo sh -c 'cat /tmp/omoikane_fw/tools_config/soshinki_redis.conf >> /etc/redis/redis.conf'
+    $ sudo sh -c 'cat /tmp/omoikane_fw/terminal_setup/soshinki_redis.conf >> /etc/redis/redis.conf'
     $ sudo systemctl restart redis
 
     # direnv
@@ -129,7 +129,7 @@ Run Instructions
     $ cd ~/lib/omoikane_fw
     # copy AWS IoT client certificate and key to the omoikane_fw's specific place
     $ mkdir -p ~/.aws/iot
-    $ cp -R tools_config/.aws/iot ~/.aws
+    $ cp -r terminal_setup/.aws/iot ~/.aws
 
     # always allow direnv to load .envrc in the omoikane_fw directory
     $ mkdir -p ~/.config/direnv
@@ -181,7 +181,7 @@ Build Instructions for using Visual Studio Code
     $ cd omoikane_fw
     # copy AWS IoT client certificate and key to the omoikane_fw's specific place
     $ mkdir -p ~/.aws/iot
-    $ cp -R tools_config/.aws/iot ~/.aws
+    $ cp -r terminal_setup/.aws/iot ~/.aws
 
     # create an alias for Visual Studio Code in Windows side
     $ echo 'alias code='\''"/mnt/c/Program Files/Microsoft VS Code/bin/code"'\''' >> ~/.bashrc
