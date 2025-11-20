@@ -95,7 +95,7 @@ Tested for **Ubuntu 24.04**.
     $ sudo sh -c 'echo "supervised systemd" >> /etc/redis/redis.conf'
     $ cd /tmp
     $ git clone https://<your_personal_access_token>@github.com/questar-ac/omoikane_fw.git
-    $ sudo sh -c 'cat /tmp/omoikane_fw/tools_config/soshinki_redis.conf >> /etc/redis/redis.conf'
+    $ sudo sh -c 'cat /tmp/omoikane_fw/terminal_setup/soshinki_redis.conf >> /etc/redis/redis.conf'
     $ sudo systemctl restart redis
 
     # direnv
@@ -142,7 +142,7 @@ Tested for **macOS Ventura**.
     % brew install redis
     % cd /tmp
     % git clone https://<your_personal_access_token>@github.com/questar-ac/omoikane_fw.git
-    % cat /tmp/omoikane_fw/tools_config/soshinki_redis.conf >> "$(brew --prefix)"/etc/redis.conf
+    % cat /tmp/omoikane_fw/terminal_setup/soshinki_redis.conf >> "$(brew --prefix)"/etc/redis.conf
     % sudo brew services start redis
 
     # direnv
@@ -188,7 +188,7 @@ Running for Linux
     $ cd ~/lib/omoikane_fw
     # copy AWS IoT client certificate and key to the omoikane_fw's specific place
     $ mkdir -p ~/.aws/iot
-    $ cp -r tools_config/.aws/iot ~/.aws
+    $ cp -r terminal_setup/.aws/iot ~/.aws
 
     # check if the USB-serial adapter is available on the system
     $ lsusb
@@ -226,11 +226,11 @@ Running for macOS
     % cd ~/lib/omoikane_fw
     # copy AWS IoT client certificate and key to the omoikane_fw's specific place
     % mkdir -p ~/.aws/iot
-    % cp -r tools_config/.aws/iot ~/.aws
+    % cp -r terminal_setup/.aws/iot ~/.aws
 
     # check if the USB-serial adapter is available on the system
     % ls /dev/tty.*
-    /dev/tty.usbserial-CHDlb135B02
+    /dev/tty.usbserial-FTE3YEM3
 
     # always allow direnv to load .envrc in the omoikane_fw directory
     % mkdir -p ~/.config/direnv
@@ -263,7 +263,7 @@ Building for using Visual Studio Code
 
     # copy AWS IoT client certificate and key to the omoikane_fw's specific place
     $ mkdir -p ~/.aws/iot
-    $ cp -r tools_config/.aws/iot ~/.aws
+    $ cp -r terminal_setup/.aws/iot ~/.aws
 
     # open Visual Studio Code
     $ code .
@@ -302,7 +302,7 @@ Run Instructions for using Visual Studio Code
     $ cd ~/lib/omoikane_fw
     # copy AWS IoT client certificate and key to the omoikane_fw's specific place
     $ mkdir -p ~/.aws/iot
-    $ cp -r tools_config/.aws/iot ~/.aws
+    $ cp -r terminal_setup/.aws/iot ~/.aws
 
     # open Visual Studio Code
     $ code .
